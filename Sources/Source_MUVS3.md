@@ -8,25 +8,25 @@ GitHub：<https://github.com/mu-opensource/>
 
 您在使用过程中有遇到技术方面的问题，可以通过电话**0571-81958588**或者email: **support@morpx.com**与我司取得联系。
 
-**官方技术支持微信号
+**官方技术支持微信号**
 
 ![](./images/QRcode_WeChat.png)
 
-**官方技术支持QQ号
+**官方技术支持QQ号**
 
 ![](./images/QRcode_QQ.png)
 
-**官方技术交流QQ群号
+**官方技术交流QQ群号**
 
 ![](./images/QRcode_QQ_group.png)
 
 # 平台链接
 
-**Mixly:
+**Mixly:**
 
 Mixly官网 <http://mixly.org/>
 
-**Arduino：
+**Arduino：**
 
 Arduino官网 <https://www.arduino.cc/>
 
@@ -36,11 +36,11 @@ DF创客社区 <http://mc.dfrobot.com.cn/>
 
 极客工坊 <https://www.geek-workshop.com/forum.php>
 
-**Micro:bit:
+**Micro:bit:**
 
 Micro:bit官网 <https://microbit.org/zh-CN/>
 
-**MicroPython:
+**MicroPython:**
 
 MicroPython官网 <http://micropython.org/>
 
