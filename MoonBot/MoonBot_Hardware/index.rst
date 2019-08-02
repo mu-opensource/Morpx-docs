@@ -6,7 +6,7 @@
 MoonBot Kit 硬件指南
 ===============================
 
-MoonBot Kit共有9种模块
+MoonBot Kit目前共有9种硬件模块。
 
 .. toctree::
     :maxdepth: 1
