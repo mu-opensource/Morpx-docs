@@ -5,6 +5,7 @@
 
 MoonBot Kit Mixly 教程
 ===============================
+本文介绍MoonBot Kit使用米思奇（Mixly）进行开发的教程。
 
 .. toctree::
     :maxdepth: 1
