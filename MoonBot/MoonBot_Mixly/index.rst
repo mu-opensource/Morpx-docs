@@ -10,4 +10,4 @@ MoonBot Kit Mixly 教程
     :maxdepth: 1
     :glob: 
 
-    MoonBot_MixlyInstallationGuide_zh.md
+    MoonBot Mixly 编程搭建指南 <MoonBot_MixlyInstallationGuide_zh.md>

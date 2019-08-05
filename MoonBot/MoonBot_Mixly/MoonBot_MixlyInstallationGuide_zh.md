@@ -22,7 +22,13 @@ Windows/Linux/Mac完整版安装包下载地址：[https://pan.baidu.com/s/1h8Cu
         >>> ./arduino-1.8.2-linux64/arduino
         ```
 - 2.点击`项目->加载库->管理库`，打开`库管理器`
+
+    ![arduino_lib_management](./images/arduino_lib_management_zh.png)
+
 - 3.搜索库`AsyncDelay`，若没有安装则安装相关库，若库有更新，则进行更新
+
+    ![arduino_lib_download_zh](./images/arduino_lib_download_zh.png)
+
 - 4.按照第三步的安装方法安装库`SoftwareWire` `Adafruit_NeoPixel` `Servo`，保证相关库安装到最新版
 - 5.关闭Arduino，完成基础库安装
 
