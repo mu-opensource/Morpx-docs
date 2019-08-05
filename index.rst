@@ -43,12 +43,3 @@
 	
     Sources/index
 
-.. toctree::
-    :maxdepth: 1
-    :caption: MU Vision Sensor 3 开发教程
-	
-    MUVS3/index
-    MUVS3/MUVS3_Mixly/index
-    MUVS3/MUVS3_Arduino/index
-    MUVS3/MUVS3_Makecode/index
-    MUVS3/MUVS3_MicroPython/index
