@@ -60,14 +60,23 @@ MuVisionSensor.VisionBegin(vision_type)
 目前支持的vision_type有：
 
 | vision_type                | 算法名称    |
+
 | -------------------------- | ----------- |
+
 | VISION_COLOR_DETECT        | 颜色检测     |
+
 | VISION_COLOR_RECOGNITION   | 颜色识别     |
+
 | VISION_BALL_DETECT         | 球体检测     |
+
 | VISION_BODY_DETECT         | 人体检测     |
+
 | VISION_SHAPE_CARD_DETECT   | 形状卡片检测 |
+
 | VISION_TRAFFIC_CARD_DETECT | 交通卡片检测 |
+
 | VISION_NUM_CARD_DETECT     | 数字卡片检测 |
+
 | VISION_ALL                 | 开启所有算法 |
 
 **示例：**
