@@ -41,5 +41,5 @@
     :maxdepth: 1
     :caption: 相关资源
 	
-    Sources/index
+    Resources/index
 
