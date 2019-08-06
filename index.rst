@@ -41,5 +41,6 @@
     :maxdepth: 1
     :caption: 相关资源
 	
-    Resources/index
+    Resources/index_MUVS3
+    Resources/index_MoonBot
 
