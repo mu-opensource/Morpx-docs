@@ -51,4 +51,4 @@ MUVS3 Mixly 教程：<https://morpx-docs.readthedocs.io/en/latest/MUVS3/MUVS3_Mi
 ### wifi连接app
 
 视觉模块自带wifi，可以连接MU Bot App，进行遥控或手机端编程等，
-详情参考MoonBot Kit MU Bot APP 教程。
+详情参考MoonBot Kit MU Bot APP 教程：<https://morpx-docs.readthedocs.io/en/latest/MoonBot/MoonBot_App/index.html>

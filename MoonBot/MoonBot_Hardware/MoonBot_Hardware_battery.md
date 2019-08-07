@@ -30,6 +30,6 @@
 
 ![](./images/pinout_battery.png)
 
-## 使用示例
+## 使用说明
 
-x
+
