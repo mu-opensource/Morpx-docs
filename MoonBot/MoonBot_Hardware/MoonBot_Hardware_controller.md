@@ -38,7 +38,7 @@
 
 循环播放5次高低警报音后停止播放，结尾添加死循环防止再次播放。
 
-![](.images/Mixly_example_controller_buzzer.png)
+![](./images/Mixly_example_controller_buzzer.png)
 
 **主控IMU示例**
 
