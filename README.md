@@ -19,11 +19,16 @@ refer to [Read-the-Docs Getting Started with Sphinx](https://read-the-docs.readt
     $ sudo pip install recommonmark
     ```
 
-- 3.Make file:
+- 3.Install theme `sphinx_rtd_theme`:
+    ```bash
+    $ sudo pip install sphinx_rtd_theme
+    ```
+
+- 4.Make file:
 
     ```bash
     $ cd {your_project_path}/Morpx-docs/
     $ make html
     ```
 
-- 4.Open file `index.html` in path `{your_project_path}/Morpx-docs/_build/html/index.html`
+- 5.Open file `index.html` in path `{your_project_path}/Morpx-docs/_build/html/index.html`
