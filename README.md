@@ -19,7 +19,7 @@ refer to [Read-the-Docs Getting Started with Sphinx](https://read-the-docs.readt
     $ sudo pip install recommonmark
     ```
 
-- 2.Install theme `sphinx_rtd_theme`:
+- 3.Install theme `sphinx_rtd_theme`:
     ```bash
     $ sudo pip install sphinx_rtd_theme
     ```
