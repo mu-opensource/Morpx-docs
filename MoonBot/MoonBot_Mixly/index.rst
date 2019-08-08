@@ -12,3 +12,5 @@ MoonBot Kit Mixly 教程
     :glob: 
 
     MoonBot_MixlyInstallationGuide_zh.md
+    MoonBot_Mixly_block_guide_zh.md
+
