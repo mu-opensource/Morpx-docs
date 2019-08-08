@@ -1,4 +1,4 @@
-.. xyp documentation master file, created by
+.. morpx documentation master file, created by
    sphinx-quickstart on Fri Jul 19 17:00:19 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
@@ -6,7 +6,10 @@
 MoonBot Kit 硬件指南
 ===============================
 
-MoonBot Kit目前共有9种硬件模块。
+MoonBot Kit目前共有9种硬件模块。可以通过米思奇或Arduino对模块单独操控，或者将模块拼搭成具体的形态后设计交互程序。
+以下模块介绍中会单独介绍每个模块的引脚定义和简单的米思奇程序，帮助用户快速上手。软件方面的详细教程请参考下文
+
+`MoonBot Kit Mixly教程 <https://morpx-docs.readthedocs.io/en/latest/MoonBot/MoonBot_Mixly/index.html>`_
 
 .. toctree::
     :maxdepth: 1
