@@ -18,4 +18,8 @@
 
 ## 搭建指南
 
+下载MoonBot pdf搭建指南
+
+[MoonBot 搭建指南](./docs/MoonBot_Manual_20190729.pdf)
+
 ## 示例程序

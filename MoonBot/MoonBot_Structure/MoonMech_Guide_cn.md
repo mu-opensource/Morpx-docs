@@ -16,4 +16,8 @@
 
 ## 搭建指南
 
+下载MoonMech pdf搭建指南
+
+[MoonMech 搭建指南](./docs/MoonMech_Manual_20190729.pdf)
+
 ## 示例程序

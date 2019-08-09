@@ -16,4 +16,8 @@
 
 ## 搭建指南
 
+下载MoonRover pdf入门指南
+
+[MoonRover 入门指南](./docs/MoonRover_Get_Started_20190729.pdf)
+
 ## 示例程序
