@@ -26,7 +26,7 @@
 
 **接口图:**
 
-![](./images/pinout_MUVS3.png)
+![](./images/pinout_MUVS3_2.png)
 
 ## 使用示例
 
