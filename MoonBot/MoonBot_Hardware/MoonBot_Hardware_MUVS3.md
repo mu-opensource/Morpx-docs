@@ -46,7 +46,7 @@
 
 该程序较为简单，主要为了展示MU的连接和程序初始化。更多编程块和示例程序可参考
 
-[MUVS3 Mixly 教程] (https://morpx-docs.readthedocs.io/en/latest/MUVS3/MUVS3_Mixly/index.html)
+[MUVS3 Mixly 教程](https://morpx-docs.readthedocs.io/en/latest/MUVS3/MUVS3_Mixly/index.html)
 
 注意该版本视觉模块和通用视觉模块开发板的区别，由于有wifi连接app的功能，视觉模块默认和主控采用串口连接，使用Mixly或Arduino进行开发，初始化程序参考以上示例。
 
@@ -55,4 +55,4 @@
 视觉模块自带wifi，可以连接MU Bot App，进行遥控或手机端编程等，
 详情参考
 
-[MoonBot Kit MU Bot APP 教程] (https://morpx-docs.readthedocs.io/en/latest/MoonBot/MoonBot_App/index.html)
+[MoonBot Kit MU Bot APP 教程](https://morpx-docs.readthedocs.io/en/latest/MoonBot/MoonBot_App/index.html)
