@@ -25,8 +25,8 @@ LED灯数量：12
 程序介绍：将眼睛模块连接至主控口，自定义眼睛亮度。
 12颗LED灯显示程序中对应的颜色，显示5秒后眼睛做出开心的表情，显示5秒后灯光关闭。
 
-![](./images/Mixly_example_eye.png)
+![](./images/Mixly_example_eyes.png)
 
 程序介绍：LED灯从第1颗到第12颗逐颗亮起设置的RGB颜色灯，等待1秒后灯光关闭
 
-![](./images/Mixly_example_eyes.png)
+![](./images/Mixly_example_eyes_single.png)

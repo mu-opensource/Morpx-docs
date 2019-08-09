@@ -29,6 +29,8 @@
 
 程序介绍：循环检测按键A和按键B的状态，当A被按下时LED1亮红色，当按键B被按下时LED2亮绿色，同时按下则都亮蓝色，无按键按下时关闭LED。
 
+[程序下载](./sources/MoonBot_button.mix)
+
 ![](./images/Mixly_example_controller_LEDbutton.png)
 
 ### 主控蜂鸣器示例
