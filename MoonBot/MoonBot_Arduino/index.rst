@@ -6,7 +6,7 @@
 MoonBot Kit Arduino 教程
 ===============================
 
-MU Vision Sensor 3 可以与Arduino连接进行开发。
+本文介绍MoonBot Kit 使用Arduino IDE 进行开发的教程。
 
 .. toctree::
     :maxdepth: 1
