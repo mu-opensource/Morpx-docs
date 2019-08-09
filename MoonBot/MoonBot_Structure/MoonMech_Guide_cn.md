@@ -18,6 +18,6 @@
 
 下载MoonMech pdf搭建指南
 
-[MoonMech 搭建指南](./docs/MoonMech_Manual_20190729.pdf)
+[MoonMech 搭建指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonMech_Manual_20190729.pdf)
 
 ## 示例程序

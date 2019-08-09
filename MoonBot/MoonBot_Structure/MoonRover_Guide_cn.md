@@ -18,6 +18,6 @@
 
 下载MoonRover pdf入门指南
 
-[MoonRover 入门指南](./docs/MoonRover_Get_Started_20190729.pdf)
+[MoonRover 入门指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonRover_Get_Started_20190729.pdf)
 
 ## 示例程序
