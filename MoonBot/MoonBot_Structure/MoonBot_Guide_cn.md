@@ -20,6 +20,6 @@
 
 下载MoonBot pdf搭建指南
 
-[MoonBot 搭建指南](./docs/MoonBot_Manual_20190729.pdf)
+[MoonBot 搭建指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonBot_Manual_20190729.pdf)
 
 ## 示例程序
