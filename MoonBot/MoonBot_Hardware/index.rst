@@ -15,7 +15,7 @@ MoonBot Kit目前共有9种硬件模块。可以通过米思奇或Arduino对模�
 
 下载所有硬件示例程序
 
-`MoonBot 硬件示例<https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Hardware/sources/MoonBot_Hardware_examples.zip>`_
+`MoonBot 硬件示例 <https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Hardware/sources/MoonBot_Hardware_examples.zip>`_
 
 .. toctree::
     :maxdepth: 1
