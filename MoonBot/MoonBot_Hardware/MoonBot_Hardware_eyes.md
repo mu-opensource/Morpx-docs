@@ -4,7 +4,7 @@
 
 ![](./images/render_eyes.png)
 
-眼睛模块由12颗RGB LED组成
+眼睛模块由12颗串行RGB LED组成。
 
 ## 参数
 

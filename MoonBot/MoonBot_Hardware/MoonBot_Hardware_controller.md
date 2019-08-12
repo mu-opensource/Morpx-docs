@@ -4,7 +4,8 @@
 
 ![](./images/render_controller.png)
 
-主控模块是机器人的交互核心。
+主控模块是机器人的交互核心。主控芯片为Atmega1280，兼容Arduino。板载舵机、电机和通用输入输出的接口，可以连接外部设备。
+同时板载按键、LED等外设，便于快速编程控制。
 
 ## 参数
 
@@ -28,8 +29,6 @@
 以下示例通过主控模块板载的2个可编程按键控制板载的2个RGB彩灯。
 
 程序介绍：循环检测按键A和按键B的状态，当A被按下时LED1亮红色，当按键B被按下时LED2亮绿色，同时按下则都亮蓝色，无按键按下时关闭LED。
-
-[程序下载](./sources/MoonBot_button.mix)
 
 ![](./images/Mixly_example_controller_LEDbutton.png)
 
