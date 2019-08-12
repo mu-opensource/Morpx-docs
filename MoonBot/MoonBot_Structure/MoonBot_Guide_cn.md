@@ -28,3 +28,15 @@ MoonBot可用于学习接待、巡逻等服务型机器人应用。
 [MoonBot 搭建指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonBot_Manual_20190729.pdf)
 
 ## 示例程序
+
+### 跟随人体
+
+MoonBot可以靠视觉来识别人体，并通过底盘和头部的运动跟随人体。
+
+程序介绍：初始化连接舵机，根据实际转动方向调整舵机的方向，设置连接在串口3的视觉传感器，启用人体识别算法。
+循环程序中，当检测到人体时，根据人体的横向坐标判断底盘的转动方向，再根据人体的纵向坐标判断脖子舵机的转动方向。
+
+实验现象：烧录完成程序后打开MoonBot放在桌面上，站在机器人眼前，当视觉闪红灯时未检测到，当视觉闪蓝灯时则检测到人体。
+人上下左右移动时机器人也会移动和转动脖子，保持脸始终朝向人体。
+
+![](./images/Mixly_MoonBot_followBody.png)
