@@ -25,7 +25,7 @@ MoonRover可以用于学习避障、巡线、无人驾驶等车类应用。
 
 ## 示例程序
 
-下载示例程序
+下载MoonRover米思奇示例程序
 
 [MoonRover示例程序](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/sources/Mixly_example_MoonRover.zip)
 
