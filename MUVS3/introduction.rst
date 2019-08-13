@@ -10,9 +10,4 @@ MU 视觉传感器3（MU Vision Sensor 3）是一款用于图像识别的传感�
 
 .. image:: images/MUVS3_main.png
 
-.. toctree::
-    :maxdepth: 1
-    :glob: 
-	
-    MUVS3_Guide_cn_0_8.md
 	
