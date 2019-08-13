@@ -8,7 +8,9 @@ MoonBot Kit Mixly 教程
 
 本文介绍 MoonBot Kit 使用米思奇（Mixly）进行开发的教程。
 
-Mixly 基础教程见 `Mixly 帮助文档 <http://mixly.readthedocs.io/>`_，此处不再赘述。
+Mixly 基础教程请参考官方帮助文档
+
+`Mixly 帮助文档 <http://mixly.readthedocs.io/>`_
 
 .. toctree::
     :maxdepth: 1
@@ -16,4 +18,3 @@ Mixly 基础教程见 `Mixly 帮助文档 <http://mixly.readthedocs.io/>`_，此
 
     MoonBot_MixlyInstallationGuide_zh.md
     API_reference/index.rst
-
