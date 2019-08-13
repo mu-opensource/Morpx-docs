@@ -17,6 +17,4 @@ Mixly 基础教程请参考官方帮助文档
     :glob: 
 
     MoonBot_MixlyInstallationGuide_zh.md
-    MoonBot_Mixly_block_guide_zh.md
     API_reference/index.rst
-
