@@ -1,5 +1,5 @@
 # 配置Mu Editor和Micro:bit
-Mu Editor是一款具有友好GUI界面的MicroPython集成开发工具，包含了代码编辑、烧录、REPL终端、串口绘图器等功能。通过Micro:bit主板控制小MU视觉传感器，需要使用包含了MuVisionSensor传感器的MicroPython固件，请按以下步骤进行设置：
+Mu Editor是一款具有友好GUI界面的MicroPython集成开发工具，包含了代码编辑、烧录、REPL终端、串口绘图器等功能。通过Micro:bit主板控制小MU视觉传感器，需要使用包含了MUVisionSensor传感器的MicroPython固件，请按以下步骤进行设置：
 
 （1）下载Micro:bit固件：
 
