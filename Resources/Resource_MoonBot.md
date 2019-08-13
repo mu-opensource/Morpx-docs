@@ -26,6 +26,8 @@ GitHub：<https://github.com/mu-opensource/>
 
 Mixly官网 <http://mixly.org/>
 
+Mixly帮助文档 <https://mixly.readthedocs.io/zh_CN/latest/contents.html>
+
 **Arduino：**
 
 Arduino官网 <https://www.arduino.cc/>
