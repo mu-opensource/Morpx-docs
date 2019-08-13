@@ -3,7 +3,7 @@ Mu Editor是一款具有友好GUI界面的MicroPython集成开发工具，包含
 
 （1）下载Micro:bit固件：
 
-GitHub：<https://github.com/mu-opensource/MuVisionSensorIII-MicroPython>
+GitHub：<https://github.com/mu-opensource/MuVisionSensor3-MicroPython>
 
 morpx官网：<http://mai.morpx.com/page.php?a=sensor-support>
 
