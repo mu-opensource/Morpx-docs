@@ -31,7 +31,7 @@ MoonBot可用于学习接待、巡逻等服务型机器人应用。
 
 下载MoonBot米思奇示例程序
 
-[MoonBot 示例程序]
+[MoonBot 示例程序](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/sources/Mixly_example_MoonBot.zip)
 
 ### 摇摆身体
 
