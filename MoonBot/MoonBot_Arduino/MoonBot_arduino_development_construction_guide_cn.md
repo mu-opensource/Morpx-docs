@@ -1,7 +1,7 @@
-MoonBot Arduino 开发环境搭建指南
+MoonBot Kit Arduino 开发环境搭建指南
 ============================
 
-MoonBot 开发者套件（以下简称 MoonBot ）提供了 Arduino 库函数，支持在 Arduino(ATmega1280) 上进行开发编程。
+MoonBot Kit（以下简称 MoonBot ）提供了 Arduino 库函数，支持在 Arduino(ATmega1280) 上进行开发编程。
 
 本文档旨在指导用户基于 Arduino 官方 IDE 进行 MoonBot 硬件开发环境搭建。
 
@@ -34,12 +34,12 @@ MoonBot 开发者套件（以下简称 MoonBot ）提供了 Arduino 库函数，
 
 ### 第二步：MoonBot Arduino库导入
 
-- 1.在github下载最新的 [MuVisionSensorIII](https://github.com/mu-opensource/MuVisionSensorIII/releases/latest) 的 Arduino 库和 [MoonBot](https://github.com/mu-opensource/MoonBot/releases/latest) Arduino 库（Source code(zip)）
+- 1.在github下载最新的 [MuVisionSensor3](https://github.com/mu-opensource/MuVisionSensor3/releases/latest) 的 Arduino 库和 [MoonBot](https://github.com/mu-opensource/MoonBot/releases/latest) Arduino 库（Source code(zip)）
 - 2.点击`项目->加载库->添加.zip库`，选中第一步下载的 MoonBot Arduino 库，完成库的导入
 
     ![](./images/arduino_add_zip_library.png)
 
-- 3.重复上一步，导入 MuVisionSensorIII Arduino 库，完成库导入
+- 3.重复上一步，导入 MuVisionSensor3 Arduino 库，完成库导入
 
 ### 第三步：连接设备
 

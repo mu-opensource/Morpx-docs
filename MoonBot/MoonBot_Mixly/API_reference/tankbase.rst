@@ -1,7 +1,7 @@
 底盘控制
 =========
 
-**底盘控制** 包含了驱动 MoonBot Kit 双电机的驱动模块，以及驱动电机内编码器的驱动模块。
+**底盘控制** 包含了驱动 MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_motor` 以及电机内编码器的驱动。
 
 通过调用这些模块，可以让电机底盘运动起来。
 

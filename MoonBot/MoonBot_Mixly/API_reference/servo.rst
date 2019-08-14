@@ -1,7 +1,7 @@
 舵机
 =========
 
-**舵机** 包含了基础的舵机驱动，可以用来驱动 MoonBot Kit 中4个舵机端口上所连接的舵机，来实现单个或多个口的舵机同时运动。
+**舵机** 包含了 MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_servo` 驱动，可以用来驱动 MoonBot Kit 中4个舵机端口上所连接的舵机，来实现单个或多个口的舵机同时运动。
 
 .. image:: images/servo.png
 

@@ -1,7 +1,7 @@
 灯光
 ========
 
-**灯光** 模块包含了 MoonBot Kit 主控板载的两颗 LED 和12颗 LED 眼睛模块的驱动。
+**灯光** 模块包含了 MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 板载的两颗 LED 和外接12颗 LED :doc:`../../MoonBot_Hardware/MoonBot_Hardware_eyes` 的驱动。
 
 通过这些模块，您可以轻松地设置LED颜色和亮度。
 
@@ -36,6 +36,21 @@
     :颜色:
 
         - .. image:: images/LED_color.png
+
+眼睛显示表情
+------------
+
+.. image:: images/eyes_show_emotion.png
+
+:描述:
+
+    眼睛 LED 显示表情动作。
+
+:参数:
+
+    :表情:
+
+        - ``见模块下拉菜单``
 
 主控LED显示
 --------------

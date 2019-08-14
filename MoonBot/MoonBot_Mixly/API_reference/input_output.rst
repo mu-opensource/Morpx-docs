@@ -1,7 +1,7 @@
 输入
 ====
 
-**输入** 包含了 ``触摸`` ``红外`` ``按键`` 及引脚映射模块
+**输入** 包含了 MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_touch` :doc:`../../MoonBot_Hardware/MoonBot_Hardware_infrared` :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 的按键及引脚映射模块
 
 .. image:: images/input.png
 

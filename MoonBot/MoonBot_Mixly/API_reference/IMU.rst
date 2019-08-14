@@ -1,7 +1,7 @@
 IMU
 =====
 
-**IMU** 包含了三轴加速度，三轴磁力计和温度传感器的驱动。
+**IMU** 包含了 MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 板载的三轴加速度，三轴磁力计和温度传感器的驱动。
 
 通过调用这些模块，您可以获取 MoonBot Kit 主控当前方向、倾斜角度和状态等。
 

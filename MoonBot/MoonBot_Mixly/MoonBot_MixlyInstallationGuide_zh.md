@@ -34,7 +34,7 @@ Windows/Linux/Mac完整版MoonBot Mixly安装包下载地址：[https://pan.baid
 
 ### 导入Mixly库
 
-- 1.点击下载[MoonBot](https://github.com/mu-opensource/MoonBot-Mixly/releases/latest)/[MuVisionSensorIII](https://github.com/mu-opensource/MuVisionSensorIII-Mixly/releases/latest)最新版Mixly库压缩包
-- 2.解压已下载的`MoonBot/MuVisionSensorIII`压缩包
-- 3.打开Mixly界面，点击导入按钮，分别在刚解压出的`MoonBot/MuVisionSensorIII`文件夹路径下找到`.xml`结尾的文件
+- 1.点击下载[MoonBot](https://github.com/mu-opensource/MoonBot-Mixly/releases/latest)/[MuVisionSensor3](https://github.com/mu-opensource/MuVisionSensor3-Mixly/releases/latest)最新版Mixly库压缩包
+- 2.解压已下载的`MoonBot`/`MuVisionSensor3`压缩包
+- 3.打开Mixly界面，点击导入按钮，分别在刚解压出的`MoonBot`/`MuVisionSensor3`文件夹路径下找到`.xml`结尾的文件
 - 4.至此，库安装完成

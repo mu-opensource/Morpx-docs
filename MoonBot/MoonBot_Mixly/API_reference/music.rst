@@ -1,7 +1,7 @@
 音乐
 ======
 
-**音乐** 包含了对 MoonBot Kit 主控板载蜂鸣器的驱动和外部扬声器的驱动。
+**音乐** 包含了 MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 板载蜂鸣器的驱动和外部 :doc:`../../MoonBot_Hardware/MoonBot_Hardware_speaker` 的驱动。
 
 通过调用这些模块可以让您控制 MoonBot Kit 播放动人的音乐。
 
