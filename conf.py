@@ -95,15 +95,22 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 
+html_search_language = 'zh'
+
+html_logo = 'logo_mu.png'
+
+html_theme_options = {
+    'style_nav_header_background': "#036eb8",
+    'logo_only': False,
+    'display_version': True
+}
+
 
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Morpxdoc'
 
-html_search_language = 'zh'
-
-html_logo = 'logo_mu.png'
 
 # -- Options for LaTeX output ------------------------------------------------
 
