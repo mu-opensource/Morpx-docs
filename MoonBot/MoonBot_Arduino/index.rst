@@ -14,3 +14,8 @@ MoonBot Kit Arduino 教程
 	
     MoonBot_arduino_development_construction_guide_cn.md
 	
+.. toctree::
+    :maxdepth: 2
+    :glob: 
+
+    API_reference/index
