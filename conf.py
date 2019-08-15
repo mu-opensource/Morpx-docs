@@ -120,10 +120,6 @@ htmlhelp_basename = 'Morpxdoc'
 
 latex_engine = 'xelatex'
 
-latex_logo = 'logo_mu.png'
-
-latex_toplevel_sectioning = 'part'
-
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
