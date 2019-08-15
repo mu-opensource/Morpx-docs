@@ -3,7 +3,7 @@
 
 ![](./images/MUVS3_Makecode_extension.png)
 
-搜索**mu-opensource/pxt-MuVisionSensor3**，点击卡片完成添加。
+搜索**mu-opensource/pxt-MuVisionSensorIII**，点击卡片完成添加。
 
 ![](./images/MUVS3_Makecode_extension_MU.png)
 

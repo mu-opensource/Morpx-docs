@@ -1,9 +1,9 @@
 # 配置Mu Editor和Micro:bit
-Mu Editor是一款具有友好GUI界面的MicroPython集成开发工具，包含了代码编辑、烧录、REPL终端、串口绘图器等功能。通过Micro:bit主板控制小MU视觉传感器，需要使用包含了MUVisionSensor传感器的MicroPython固件，请按以下步骤进行设置：
+Mu Editor是一款具有友好GUI界面的MicroPython集成开发工具，包含了代码编辑、烧录、REPL终端、串口绘图器等功能。通过Micro:bit主板控制小MU视觉传感器，需要使用包含了MuVisionSensor传感器的MicroPython固件，请按以下步骤进行设置：
 
 （1）下载Micro:bit固件：
 
-GitHub：<https://github.com/mu-opensource/MuVisionSensor3-MicroPython>
+GitHub：<https://github.com/mu-opensource/MuVisionSensorIII-MicroPython>
 
 morpx官网：<http://mai.morpx.com/page.php?a=sensor-support>
 
@@ -59,21 +59,21 @@ MuVisionSensor.VisionBegin(vision_type)
 
 目前支持的vision_type有：
 
-`VISION_COLOR_DETECT`        颜色检测
+VISION_COLOR_DETECT        颜色检测
 
-`VISION_COLOR_RECOGNITION`   颜色识别
+VISION_COLOR_RECOGNITION   颜色识别
 
-`VISION_BALL_DETECT`         球体检测
+VISION_BALL_DETECT         球体检测
 
-`VISION_BODY_DETECT`         人体检测
+VISION_BODY_DETECT         人体检测
 
-`VISION_SHAPE_CARD_DETECT`   形状卡片检测
+VISION_SHAPE_CARD_DETECT   形状卡片检测
 
-`VISION_TRAFFIC_CARD_DETECT` 交通卡片检测
+VISION_TRAFFIC_CARD_DETECT 交通卡片检测
 
-`VISION_NUM_CARD_DETECT`     数字卡片检测
+VISION_NUM_CARD_DETECT     数字卡片检测
 
-`VISION_ALL`                开启所有算法
+VISION_ALL                 开启所有算法
 
 **示例：**
 
@@ -96,13 +96,13 @@ MuVisionSensor.VisionSetLevel(vision_type, level)
 
 可选的level有：
 
-`LevelDefault`  默认
+LevelDefault  默认
 
-`LevelSpeed`  速度优先
+LevelSpeed  速度优先
 
-`LevelBalance`  平衡
+LevelBalance  平衡
 
-`LevelAccuracy` 准确性优先
+LevelAccuracy 准确性优先
 
 **示例：**
 
@@ -132,9 +132,9 @@ MuVisionSensor.CameraSetFPS(mode)
 
 可选的mode有：
 
-`FPSNormal` 正常模式
+FPSNormal 正常模式
 
-`FPSHigh` 高帧率模式
+FPSHigh 高帧率模式
 
 ### 获取摄像头帧率模式
 
@@ -158,13 +158,13 @@ MuVisionSensor.CameraSetAwb(mode)
 
 可选的mode有：
 
-`AutoWhiteBalance`		自动白平衡
+AutoWhiteBalance		自动白平衡
 
-`LockWhiteBalance`		锁定白平衡
+LockWhiteBalance		锁定白平衡
 
-`WhiteLight`      		白光模式
+WhiteLight      		白光模式
 
-`YellowLight`     		黄光模式
+YellowLight     		黄光模式
 
 ### 获取摄像头白平衡模式
 
@@ -186,17 +186,17 @@ MuVisionSensor.CameraSetZoom(mode)
 
 可选的mode有：
 
-`ZoomDefault` 默认
+ZoomDefault		        默认
 
-`Zoom1` 变焦模式1
+Zoom1      		        变焦模式1
 
-`Zoom2` 变焦模式2
+Zoom2      		        变焦模式2
 
-`Zoom3` 变焦模式3
+Zoom3      		        变焦模式3
 
-`Zoom4` 变焦模式4
+Zoom4      		        变焦模式4
 
-`Zoom5` 变焦模式5
+Zoom5      		        变焦模式5
 
 ### 获取摄像头变焦模式
 
@@ -220,27 +220,20 @@ MuVisionSensor.LedSetColor(led, detected_color, undetected_color, level)
 
 led：要配置的LED灯，可选值为
 
-`Led1` 板载LED1
+Led1	板载LED1
 
-`Led2` 板载LED2
+Led2	板载LED2
 
 detected_color：检测到结果时的颜色，可选值为
 
-`LedClose` LED关
-
-`LedRed` 红色
-
-`LedGreen` 绿色
-
-`LedYellow`	黄色
-
-`LedBlue` 蓝色
-
-`LedPurple` 紫色
-
-`LedCyan` 青色
-
-`LedWhite` 白色
+LedClose 		LED关
+LedRed   		红色
+LedGreen 	   	绿色
+LedYellow		黄色
+LedBlue  		蓝色
+LedPurple 		紫色
+LedCyan  	    青色
+LedWhite 		白色
 
 undetected_color：未检测到结果时的颜色，可选值同上
 
@@ -273,20 +266,20 @@ vision_type的可选值同上
 
 object_inf的可选值为：
 
-`Status` 检测状态，0代表没检测到，1代表检测到
+Status     	        	检测状态，0代表没检测到，1代表检测到
 
-`XValue` 目标的横向坐标
+XValue     	           	目标的横向坐标
 
-`YValue` 目标的纵向坐标
+YValue     		        目标的纵向坐标
 
-`WidthValue` 目标的宽度
+WidthValue 		        目标的宽度
 
-`HeightValue` 目标的高度
+HeightValue		        目标的高度
 
-`Label` 目标的标签
+Label      	            目标的标签
 
-`RValue` 红色通道值（颜色识别模式）
+RValue     		        红色通道值（颜色识别模式）
 
-`GValue` 绿色通道值（颜色识别模式）
+GValue     		        绿色通道值（颜色识别模式）
 
-`BValue` 蓝色通道值（颜色识别模式）
+BValue     		        蓝色通道值（颜色识别模式）

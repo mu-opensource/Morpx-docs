@@ -5,9 +5,7 @@
 
 MoonBot Kit 形态指南
 ===============================
-MoonBot Kit 目前共有三种官方搭建形态,从简单到复杂分别是MoonRover智能车、MoonMech机械臂、MoonBot机器人。
-每种形态下有独特的功能，用户可根据喜好和拼装能力选择形态搭建。
-通过米思奇、Arduino、MU Bot APP等编程控制，也可以通过APP遥控，更可以进一步发挥创意，设计和控制自己独特的机器人。
+MoonBot Kit 目前共有三种官方搭建形态。
 
 .. toctree::
     :maxdepth: 1
