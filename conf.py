@@ -23,9 +23,9 @@ copyright = u'2019, Morpx'
 author = u'Morpx'
 
 # The short X.Y version
-version = u'1.0'
+version = u''
 # The full version, including alpha/beta/rc tags
-release = u'beta'
+release = u''
 
 
 # -- General configuration ---------------------------------------------------
@@ -101,6 +101,9 @@ html_static_path = ['_static']
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Morpxdoc'
 
+html_search_language = 'zh'
+
+html_logo = 'logo_mu.png'
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -137,7 +140,7 @@ latex_documents = [
 # (source start file, name, description, authors, manual section).
 man_pages = [
     (master_doc, 'Morpx', u'Morpx Documentation',
-     [author], 1)
+     [author], 4)
 ]
 
 
