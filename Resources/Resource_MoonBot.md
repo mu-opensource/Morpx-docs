@@ -2,6 +2,8 @@
 
 感谢您购买使用MoonBot Kit，我司会持续更新本产品的固件以及配套的资料，您可以从如下网址获取最新的技术资料：
 
+官网：<http://mai.morpx.com/page.php?a=moonbot-kit>
+
 GitHub：<https://github.com/mu-opensource/>
 
 您在使用过程中有遇到任何问题，可以通过电话**0571-81958588**或者email: **support@morpx.com**与我司取得联系。
@@ -23,6 +25,8 @@ GitHub：<https://github.com/mu-opensource/>
 **Mixly:**
 
 Mixly官网 <http://mixly.org/>
+
+Mixly帮助文档 <https://mixly.readthedocs.io/zh_CN/latest/contents.html>
 
 **Arduino：**
 

@@ -10,5 +10,5 @@
     :maxdepth: 1
     :glob: 
 	
-    Copyright_Arduino.md
+    Copyright_software_opensource.md
 	
