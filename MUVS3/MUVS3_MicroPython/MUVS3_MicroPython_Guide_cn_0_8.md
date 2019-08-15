@@ -186,17 +186,17 @@ MuVisionSensor.CameraSetZoom(mode)
 
 可选的mode有：
 
-`ZoomDefault`		        默认
+`ZoomDefault` 默认
 
-`Zoom1`      		        变焦模式1
+`Zoom1` 变焦模式1
 
-`Zoom2`      		        变焦模式2
+`Zoom2` 变焦模式2
 
-`Zoom3`      		        变焦模式3
+`Zoom3` 变焦模式3
 
-`Zoom4`      		        变焦模式4
+`Zoom4` 变焦模式4
 
-`Zoom5`      		        变焦模式5
+`Zoom5` 变焦模式5
 
 ### 获取摄像头变焦模式
 
@@ -220,20 +220,27 @@ MuVisionSensor.LedSetColor(led, detected_color, undetected_color, level)
 
 led：要配置的LED灯，可选值为
 
-`Led1`	板载LED1
+`Led1` 板载LED1
 
-`Led2`	板载LED2
+`Led2` 板载LED2
 
 detected_color：检测到结果时的颜色，可选值为
 
-`LedClose` 		LED关
-`LedRed`   		红色
-`LedGreen` 	   	绿色
-`LedYellow`		黄色
-`LedBlue`  		蓝色
-`LedPurple` 		紫色
-`LedCyan`  	    青色
-`LedWhite` 		白色
+`LedClose` LED关
+
+`LedRed` 红色
+
+`LedGreen` 绿色
+
+`LedYellow`	黄色
+
+`LedBlue` 蓝色
+
+`LedPurple` 紫色
+
+`LedCyan` 青色
+
+`LedWhite` 白色
 
 undetected_color：未检测到结果时的颜色，可选值同上
 
@@ -268,18 +275,18 @@ object_inf的可选值为：
 
 `Status` 检测状态，0代表没检测到，1代表检测到
 
-`XValue`  目标的横向坐标
+`XValue` 目标的横向坐标
 
-`YValue`  目标的纵向坐标
+`YValue` 目标的纵向坐标
 
 `WidthValue` 目标的宽度
 
-`HeightValue`	目标的高度
+`HeightValue` 目标的高度
 
-`Label`  目标的标签
+`Label` 目标的标签
 
-`RValue`  红色通道值（颜色识别模式）
+`RValue` 红色通道值（颜色识别模式）
 
-`GValue`绿色通道值（颜色识别模式）
+`GValue` 绿色通道值（颜色识别模式）
 
-`BValue`蓝色通道值（颜色识别模式）
+`BValue` 蓝色通道值（颜色识别模式）
