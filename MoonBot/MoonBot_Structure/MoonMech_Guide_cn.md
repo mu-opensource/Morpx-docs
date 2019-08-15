@@ -28,7 +28,7 @@ MoonMech可以用于学习物料搬运、投篮等工程和竞技类应用。
 
 下载MoonMech米思奇示例程序
 
-[MoonMech示例程序] (https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/sources/Mixly_example_MoonMech.zip)
+[MoonMech示例程序](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/sources/Mixly_example_MoonMech.zip)
 
 ### 抓球机器
 
