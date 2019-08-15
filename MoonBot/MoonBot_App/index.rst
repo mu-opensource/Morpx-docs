@@ -13,10 +13,4 @@ MoonBot Kit MU Bot App 教程
     :glob: 
 	
     MoonBot_ControllerRemoteUpdateGuide_zh.md
-    MoonBot_APP_Control.md
-    MoonBot_APP_Program.md
-    MoonBot_APP_ProgramCase_AI.md
-    MoonBot_APP_ProgramCase_Input.md
-    MoonBot_APP_ProgramCase_Light.md
-    MoonBot_APP_ProgramCase_Music.md
-    MoonBot_APP_ProgramCase_Moving.md
+	
