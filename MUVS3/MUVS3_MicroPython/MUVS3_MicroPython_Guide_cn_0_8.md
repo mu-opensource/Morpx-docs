@@ -57,6 +57,11 @@ MU Vision Sensor 3的外设和接口如图所示：
 MuVisionSensor.VisionBegin(vision_type)
 ```
 
+| 左对齐 | 右对齐 | 居中对齐 |
+| :-----| ----: | :----: |
+| 单元格 | 单元格 | 单元格 |
+| 单元格 | 单元格 | 单元格 |
+
 目前支持的vision_type有：
 
 VISION_COLOR_DETECT        颜色检测
