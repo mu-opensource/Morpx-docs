@@ -14,4 +14,7 @@ MU Vision Sensor 3 教程见 :doc:`MU Vision Sensor 3 教程 <../../../MUVS3/MUV
 .. toctree::
     :maxdepth: 2
 
+    pins
     motor
+    music
+    imu
