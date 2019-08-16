@@ -7,9 +7,11 @@
 ![](./images/MoonBot_App_P.jpg)
 
 1.Wifi连接
+
 点选与视觉模块LED灯光颜色一致的颜色块组合开始连接。连接失败时，可按视觉模块复位键重新点选连接。
 
 ![](./images/MoonBot_App_C1.jpg)
+
 ![](./images/MoonBot_App_C2.jpg)
 
 2.退出按钮
