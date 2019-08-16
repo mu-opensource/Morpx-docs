@@ -2,9 +2,9 @@
 
 感谢您购买使用小MU 视觉传感器，我司会持续更新本产品的固件以及配套的库函数与例程，您可以从如下网址获取最新的技术资料：
 
-GitHub：<https://github.com/mu-opensource/>
-
 官网：<http://mai.morpx.com/page.php?a=sensor-support>
+
+GitHub：<https://github.com/mu-opensource/>
 
 您在使用过程中有遇到技术方面的问题，可以通过电话**0571-81958588**或者email: **support@morpx.com**与我司取得联系。
 
@@ -25,6 +25,8 @@ GitHub：<https://github.com/mu-opensource/>
 **Mixly:**
 
 Mixly官网 <http://mixly.org/>
+
+Mixly帮助文档 <https://mixly.readthedocs.io/zh_CN/latest/contents.html>
 
 **Arduino：**
 

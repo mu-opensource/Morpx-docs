@@ -1,9 +1,9 @@
-.. xyp documentation master file, created by
+.. morpx documentation master file, created by
    sphinx-quickstart on Fri Jul 19 17:00:19 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-MUVS3 Arduino 教程
+MU 3 Arduino 教程
 ===============================
 
 本文介绍MU Vision Sensor 3 配合Arduino开发板使用Arduino IDE进行开发的教程。

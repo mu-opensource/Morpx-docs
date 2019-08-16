@@ -8,11 +8,11 @@
 
 ![](./images/MUVS3_Mixly_import.png)
 
-选中库中名为MuVisionSensorIII.xml文件，点击打开。
+选中库中名为MUVisionSensor3.xml文件，点击打开。
 
 ![](./images/MUVS3_Mixly_file.png)
 
-若在Mixly导航栏出现MuVisionSensorIII一栏，且下方出现导入自定义库成功，则导入成功。
+若在Mixly导航栏出现MUVisionSensor3一栏，且下方出现导入自定义库成功，则导入成功。
 
 ![](./images/MUVS3_Mixly_imported.png)
 
