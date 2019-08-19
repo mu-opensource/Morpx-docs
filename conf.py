@@ -105,8 +105,7 @@ html_logo = 'logo_mu.png'
 
 html_theme_options = {
     'style_nav_header_background': "#036eb8",
-    'logo_only': False,
-    'display_version': True
+    'display_version': False
 }
 
 
