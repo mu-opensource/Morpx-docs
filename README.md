@@ -3,7 +3,7 @@
 # Morpx-docs
 Morpx Inc. documents
 
-Website: https://morpx-docs.readthedocs.io/en/latest/index.html
+Website: https://morpx-docs.readthedocs.io/
 
 ## Local edit
 
