@@ -6,7 +6,7 @@
 
 ## 控制器使用简介
 
-![](./images/MoonBot_App_C.jpg)
+![](./images/MoonBot_App_C_.jpg)
 
 1.WiFi连接
 
