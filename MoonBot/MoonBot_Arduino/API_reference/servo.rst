@@ -4,8 +4,8 @@
 概览
 ----------
 
-MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 最多可连接四个 :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 。
-在 Arduino 库中，我们也提供了 :ref:`IMU <api-ref-servo>` 库，通过这个库，您可以控制一个或多个舵机同时运动。
+MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 最多可连接四个 :doc:`../../MoonBot_Hardware/MoonBot_Hardware_servo` 。
+在 Arduino 库中，我们也提供了 :ref:`舵机 <api-ref-servo>` 库，通过这个库，您可以控制一个或多个舵机同时运动。
 
 :ref:`舵机库 <api-ref-servo>` 继承了 Arduino 基础的舵机驱动 ``class Servo`` 类，除了基础的 ``Servo`` 类成员函数外，我们还提供了舵机校准、多个舵机同时运行等功能的函数。
 在 ``MoonBot.h`` 头文件中，我们提供了四个变量 ``m_servo[kServo1]`` ``m_servo[kServo2]`` ``m_servo[kServo3]`` ``m_servo[kServo4]`` ，以分别驱动主控上对应的四个舵机接口。
@@ -50,7 +50,7 @@ MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 最多可�
         }
         Serial.println("All Servo Stopped.");
 
-    改为以上形式后，使用串口软件即会打印以下类似的信息
+    改为以上形式后，使用串口调试软件即会接收到类似以下的信息
 
     .. code-block::
 
