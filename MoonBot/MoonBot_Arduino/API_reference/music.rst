@@ -78,7 +78,7 @@ API 参考 - 扬声器
 头文件
 +++++++++++
 
-    - `src/MoonBot_Motor.h <https://github.com/mu-opensource/MoonBot/blob/master/src/MoonBot_WT2003S_MP3_Decoder.h>`_
+    - `src/MoonBot_WT2003S_MP3_Decoder.h <https://github.com/mu-opensource/MoonBot/blob/master/src/MoonBot_WT2003S_MP3_Decoder.h>`_
 
 类
 +++++
