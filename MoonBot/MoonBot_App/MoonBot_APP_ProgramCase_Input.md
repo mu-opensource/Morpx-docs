@@ -1,6 +1,7 @@
 # APP编程块_输入
 
 ## 输入
+
 ![](./images/MoonBot_APP_Input.jpg)
 
 ### 读取按键被按下状态
