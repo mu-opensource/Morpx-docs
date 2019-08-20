@@ -39,8 +39,7 @@ release = u''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'recommonmark', 
-    'sphinx.ext.autodoc'
+    'recommonmark'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -101,7 +100,7 @@ html_static_path = ['_static']
 
 html_search_language = 'zh'
 
-html_logo = 'logo_mu.png'
+html_logo = '_static/logo_mu.png'
 
 html_theme_options = {
     'style_nav_header_background': "#036eb8",

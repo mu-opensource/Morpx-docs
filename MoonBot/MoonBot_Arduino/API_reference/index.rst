@@ -18,3 +18,5 @@ MU Vision Sensor 3 教程见 :doc:`MU Vision Sensor 3 教程 <../../../MUVS3/MUV
     motor
     music
     imu
+    servo
+    led
