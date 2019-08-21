@@ -20,3 +20,4 @@ MoonBot Kit MU Bot App 教程
     MoonBot_APP_ProgramCase_Light.md
     MoonBot_APP_ProgramCase_Music.md
     MoonBot_APP_ProgramCase_Moving.md
+    MoonBot_APP_ProgramCase.md
