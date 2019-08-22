@@ -24,6 +24,8 @@
 
 3.设置功能键
 
+![](./images/GIF_APP_Control0.gif)
+
 点击设置功能键，下方功能键圆形框呈虚线，点击虚线圆框可增加删除替换各个功能至圆形框内，点击设置功能键完成设置。
 
 ![](./images/MoonBot_App_C4.jpg)
@@ -55,7 +57,5 @@
 点击按键使用会有灯光/声音。
 
 ## 使用
-
-![](./images/GIF_APP_Control0.gif)
 
 ![](./images/GIF_APP_Control1.gif)
