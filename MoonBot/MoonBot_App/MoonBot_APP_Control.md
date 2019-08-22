@@ -2,8 +2,6 @@
 
 首次进入APP控制器功能，选择对应搭建好的形态。
 
-![](./images/MoonBot_App_C0.jpg)
-
 ## 控制器使用简介
 
 ![](./images/MoonBot_App_C.jpg)
@@ -20,17 +18,11 @@
 
 点击后在三种搭建形态中选择对应搭建好的形态。
 
-![](./images/MoonBot_App_C3.jpg)
-
 3.设置功能键
-
-![](./images/GIF_APP_Control0.gif)
 
 点击设置功能键，下方功能键圆形框呈虚线，点击虚线圆框可增加删除替换各个功能至圆形框内，点击设置功能键完成设置。
 
-![](./images/MoonBot_App_C4.jpg)
-
-![](./images/MoonBot_App_C5.jpg)
+![](./images/GIF_APP_Control0.gif)
  
 4.轮盘控制
 
