@@ -22,7 +22,7 @@
 
 点击设置功能键，下方功能键圆形框呈虚线，点击虚线圆框可增加删除替换各个功能至圆形框内，点击设置功能键完成设置。
 
-![](./images/GIF/GIF_APP_Control0.gif)
+[设置功能键GIF动图](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_App/images/GIF/GIF_APP_Control0.gif)
  
 4.轮盘控制
 
