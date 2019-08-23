@@ -44,4 +44,4 @@
 
 ## 使用 
 
-![](./images/GIF/GIF_APP_Program.gif)
+[编程GIF动图](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_App/images/GIF/GIF_APP_Program.gif)
