@@ -22,7 +22,7 @@ MoonMech可以用于学习物料搬运、投篮等工程和竞技类应用。
 
 下载MoonMech pdf搭建指南
 
-[MoonMech 搭建指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonMech_manual.pdf)
+[MoonMech 搭建指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonMech_manual_cn.pdf)
 
 ## 示例程序
 

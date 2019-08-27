@@ -21,7 +21,7 @@ MoonRover可以用于学习避障、巡线、无人驾驶等车类应用。
 
 下载MoonRover pdf入门指南
 
-[MoonRover入门指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonRover_Get_Started_20190729.pdf)
+[MoonRover入门指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonRover_quick_start_guide_cn.pdf)
 
 ## 示例程序
 
