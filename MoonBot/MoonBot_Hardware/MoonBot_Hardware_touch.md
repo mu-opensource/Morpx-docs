@@ -14,7 +14,7 @@
 
 触摸面规格：直径14mm
 
-**接口图：**
+### 接口图
 
 ![](./images/pinout_touch.png)
 

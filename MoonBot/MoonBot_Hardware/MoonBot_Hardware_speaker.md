@@ -16,7 +16,7 @@
 
 存储空间：16MB
 
-**接口图：**
+### 接口图
 
 ![](./images/pinout_speaker.png)
 

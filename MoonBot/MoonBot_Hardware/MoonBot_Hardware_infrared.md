@@ -20,7 +20,7 @@
 
 远距离模式约110mm
 
-**接口图：**
+### 接口图
 
 ![](./images/pinout_infrared.png)
 

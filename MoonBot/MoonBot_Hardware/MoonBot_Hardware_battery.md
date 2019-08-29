@@ -26,7 +26,7 @@
 
 充电接口：USB type-C
 
-**接口图：**
+### 接口图
 
 ![](./images/pinout_battery.png)
 
