@@ -11,7 +11,7 @@ MoonBot Kit目前共有9种硬件模块。可以通过米思奇或Arduino对模�
 
 软件方面的详细教程参考
 
-`MoonBot Kit Mixly教程 <https://morpx-docs.readthedocs.io/en/latest/MoonBot/MoonBot_Mixly/index.html>`_
+`MoonBot Kit Mixly教程 <https://morpx-docs.readthedocs.io/zh_CN/latest/MoonBot/MoonBot_Mixly/index.html>`_
 
 下载所有硬件示例程序
 
