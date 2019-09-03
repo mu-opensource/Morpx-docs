@@ -10,7 +10,7 @@
 页面使用说明
 --------------
 
-点击左下角**Read the Docs**按钮打开边栏，可以看到包含的功能。
+点击左下角 **Read the Docs** 按钮打开边栏，可以看到包含的功能。
 
 .. image:: images/about_conor.png
 
