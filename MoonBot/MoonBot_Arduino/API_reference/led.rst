@@ -76,7 +76,7 @@ MoonBot Kit 提供了丰富的眼睛动作库以供调用：
     rainbow(moonbot_eyes, 5);                   // 眼睛彩虹色渐变
     rainbowCycle(moonbot_eyes, 5);              // 眼睛灯珠逐个以不同颜色开始彩虹色转圈渐变
 
-.. _api-ref-motor:
+.. _api-ref-neopixel:
 
 API 参考 - Adafruit_NeoPixel
 ----------------------------------------------

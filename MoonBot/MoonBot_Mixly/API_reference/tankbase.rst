@@ -5,7 +5,7 @@
 
 通过调用这些模块，可以让电机底盘运动起来。
 
-.. image:: images/input.png
+.. image:: images/tankbase.png
 
 翻转方向
 ---------
