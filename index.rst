@@ -41,4 +41,4 @@
 	
     Resources/index_MUVS3
     Resources/index_MoonBot
-
+    Resources/about
