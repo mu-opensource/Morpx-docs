@@ -10,3 +10,11 @@ MoonBot套件的硬件模块可以连接常见的乐高积木，替代钣金作�
 # 双足机器人
 
 MoonBot主控最多可以连接4个舵机，配合钣金件可搭建一台双足跳舞机器人。
+
+![](./images/MoonBot_extension_biped_robot.png)
+
+# 自定义外壳
+
+MoonBot的外形可以自己制作，使用3D打印、厚纸板、木板等材料工具制作机器人外观或做内部改造。例如下图创客马老师制作的帅气龙。
+
+![](./images/MoonBot_extension_shell_mod.png)
