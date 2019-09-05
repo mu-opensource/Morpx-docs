@@ -13,6 +13,6 @@ MoonBot Kit 目前共有三种官方搭建形态,从简单到复杂分别是Moon
     :maxdepth: 1
     :glob: 
 
-    MoonRover_Guide_cn.md
-    MoonMech_Guide_cn.md
-    MoonBot_Guide_cn.md
+    MoonRover_Guide.md
+    MoonMech_Guide.md
+    MoonBot_Guide.md

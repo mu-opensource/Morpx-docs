@@ -14,7 +14,7 @@ Mixly 基础教程请参考官方帮助文档 `Mixly 帮助文档 <http://mixly.
     :maxdepth: 1
     :name: moonbot_mixly_get_start
 
-    MoonBot_MixlyInstallationGuide_zh.md
+    MoonBot_MixlyInstallationGuide.md
 
 .. toctree::
     :maxdepth: 2

@@ -12,5 +12,5 @@ MoonBot Kit 扩展形态
     :maxdepth: 1
     :glob: 
 	
-    MoonBot_Extension_Guide_cn.md
+    MoonBot_Extension_Guide.md
 	

@@ -12,5 +12,5 @@ MU 3 Mixly 教程
     :maxdepth: 1
     :glob: 
 	
-    MUVS3_Mixly_Guide_cn_0_8.md
+    MUVS3_Mixly_Guide_0_8.md
 	
