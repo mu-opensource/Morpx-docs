@@ -11,7 +11,7 @@ MoonBot Mixly 中定制了 MoonBot Kit 和MU Vision Sensor 3 的编程块，本�
 
 Mixly 基础教程见 `Mixly 帮助文档 <http://mixly.readthedocs.io/>`_，此处不再赘述。
 
-MU Vision Sensor 3 教程见 :doc:`MU Vision Sensor 3 教程 <../../../MUVS3/MUVS3_Mixly/MUVS3_Mixly_Guide_cn_0_8>`
+MU Vision Sensor 3 教程见 :doc:`MU Vision Sensor 3 教程 <../../../MUVS3/MUVS3_Mixly/MUVS3_Mixly_Guide_cn_0_8>`_
 
 .. toctree::
     :maxdepth: 2
