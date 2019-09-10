@@ -36,6 +36,8 @@ Arduino中文社区 <https://www.arduino.cn/forum.php>
 
 DF创客社区 <http://mc.dfrobot.com.cn/>
 
+DF wiki MU资料 <http://wiki.dfrobot.com.cn/index.php?title=(SKU:SEN0314)_%E5%B0%8FMU%E8%A7%86%E8%A7%89%E4%BC%A0%E6%84%9F%E5%99%A8#Mind.2B.28.E5.9F.BA.E4.BA.8EScratch3.0.29.E5.9B.BE.E5.BD.A2.E5.8C.96.E7.BC.96.E7.A8.8B>
+
 极客工坊 <https://www.geek-workshop.com/forum.php>
 
 **Micro:bit:**
