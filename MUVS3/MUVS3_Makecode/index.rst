@@ -12,5 +12,5 @@ MU 3 MakeCode 教程
     :maxdepth: 1
     :glob: 
 	
-    MUVS3_Makecode_Guide_0_8.md
+    MUVS3_Makecode_Guide.md
 	
