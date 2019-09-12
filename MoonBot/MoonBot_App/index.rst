@@ -12,7 +12,7 @@ MoonBot Kit MU Bot App 教程
     :maxdepth: 1
     :glob: 
 	
-    MoonBot_ControllerRemoteUpdateGuide_zh.md
+    MoonBot_ControllerRemoteUpdateGuide.md
     MoonBot_APP_Control.md
     MoonBot_APP_Program.md
     MoonBot_APP_ProgramCase_AI.md
