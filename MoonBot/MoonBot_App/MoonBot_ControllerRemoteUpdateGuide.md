@@ -15,16 +15,17 @@ MoonBot Kit 遥控器固件升级向导
 软件：
 
 - [Arduino官方IDE](https://www.arduino.cc/en/Main/Software?setlang=cn)
-- MoonBot 遥控器 Arduino 源码或固件
+- MoonBot 遥控器 Arduino 固件或源码
 
 ## 通过烧录HEX文件进行升级
 
 - 1.下载[MoonBot 主控遥控器固件](https://github.com/mu-opensource/MoonBot_RemoteController/releases/latest)(.hex 文件)
+- 2.下载Arduino Hex 烧录工具
 - 2.烧录 .hex 固件
     - Windows
         ```
-        1）下载 Arduino Hex 烧录工具
-        2）选择 MoonBot 端口，硬件选择 `Genuino ATmega1280`
+        1）选择 MoonBot 对应的COM端口，硬件选择 `Arduino Mega (ATmega1280)`
+		2）选择加载HEX文件
         3）点击下载，等待下载完成
         ```
 
