@@ -19,19 +19,19 @@ MoonRover可以用于学习避障、巡线、无人驾驶等车类应用。
 
 ## 搭建指南
 
-下载MoonRover pdf搭建指南，包括基础搭建部分和拓展部分。
+下载MoonRover pdf搭建指南或观看MoonRover搭建视频，包括基础搭建部分和拓展部分。
 
-[MoonRover入门指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonRover_quick_start_guide_cn.pdf)
+[MoonRover 入门指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonRover_quick_start_guide_cn.pdf)
 
-[MoonRover搭建扩展](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonRover_extended_cn.pdf)
+[MoonRover 搭建扩展](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonRover_extended_cn.pdf)
 
-搭建视频： (https://v.qq.com/x/page/z09275wx0vl.html)
+[MoonRover 搭建视频](https://v.qq.com/x/page/z09275wx0vl.html)
 
 ## 示例程序
 
 下载MoonRover米思奇示例程序
 
-[MoonRover示例程序](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/sources/Mixly_example_MoonRover.zip)
+[MoonRover 示例程序](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/sources/Mixly_example_MoonRover.zip)
 
 ### 避障小车
 

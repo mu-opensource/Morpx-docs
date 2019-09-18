@@ -23,9 +23,11 @@ MoonBot可用于学习接待、巡逻等服务型机器人应用。
 
 ## 搭建指南
 
-下载MoonBot pdf搭建指南
+下载MoonBot pdf搭建指南或观看MoonBot搭建视频来学习如何搭建MoonBot。
 
 [MoonBot 搭建指南](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Structure/docs/MoonBot_manual_cn.pdf)
+
+[MoonBot 搭建视频](http://v.qq.com/x/page/h0927ld09sl.html)
 
 ## 示例程序
 
