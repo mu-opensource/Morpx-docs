@@ -1,4 +1,4 @@
-# 技术支持
+# 技术资料
 
 感谢您购买使用MoonBot Kit，我司会持续更新本产品的固件以及配套的资料，您可以从如下网址获取最新的技术资料：
 
@@ -6,19 +6,12 @@
 
 GitHub：<https://github.com/mu-opensource/>
 
-您在使用过程中有遇到任何问题，可以通过电话**0571-81958588**或者email: **support@morpx.com**与我司取得联系。
+# 3D装配图
 
-**官方技术支持微信号**
+在网盘下载MoonBot Kit的三形态3D图， [网盘链接](https://pan.baidu.com/s/1H0bqjfQkbCjdKpvkfHyFAg)  提取码：rans 
 
-![](./images/QRcode_WeChat.png)
-
-**官方技术支持QQ号**
-
-![](./images/QRcode_QQ.png)
-
-**官方技术交流QQ群号**
-
-![](./images/QRcode_QQ_group.png)
+STP文件为通用3D格式，可用主流3D软件如solidworks,CREO打开。模型可用于查看MoonBot Kit的装配细节，测量相应尺寸，模型渲染等。
+注意该模型内塑料件和钣金件均针对开模设计，不建议用于FDM 3D打印。
 
 # 平台链接
 

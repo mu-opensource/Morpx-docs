@@ -1,9 +1,3 @@
-# 3D装配图
-在网盘下载MoonBot Kit的三形态3D图， [网盘链接](https://pan.baidu.com/s/1H0bqjfQkbCjdKpvkfHyFAg)  提取码：rans 
-
-STP文件为通用3D格式，可用主流3D软件如solidworks,CREO打开。模型可用于查看MoonBot Kit的装配细节，测量相应尺寸，模型渲染等。
-注意该模型内塑料件和钣金件均针对开模设计，不建议用于FDM 3D打印。
-
 # 自定义外壳
 
 MoonBot的外形可以自己制作，使用3D打印、厚纸板、木板等材料工具制作机器人外观或做内部改造。例如下图创客马老师制作的帅气龙。

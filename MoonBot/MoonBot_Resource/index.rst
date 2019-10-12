@@ -10,5 +10,5 @@ MoonBot Kit 资源
     :maxdepth: 1
     :glob: 
 	
-    Resource_MoonBot.md
+    MoonBot_Resource.md
 	

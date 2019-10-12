@@ -1,24 +1,16 @@
-# 技术支持
+# 技术资料
 
-感谢您购买使用小MU 视觉传感器，我司会持续更新本产品的固件以及配套的库函数与例程，您可以从如下网址获取最新的技术资料：
+感谢您购买使用MU视觉传感器，我司会持续更新本产品的固件以及配套的库函数与例程，您可以从如下网址获取最新的技术资料：
 
 官网：<http://mai.morpx.com/page.php?a=sensor-support>
 
 GitHub：<https://github.com/mu-opensource/>
 
-您在使用过程中有遇到技术方面的问题，可以通过电话**0571-81958588**或者email: **support@morpx.com**与我司取得联系。
+# 3D打印外壳
 
-**官方技术支持微信号**
+对于购买MU裸板的用户，我们提供了3D打印的外壳和折叠支架，可以在小车等使用场景下固定和调节传感器的角度。
 
-![](./images/QRcode_WeChat.png)
-
-**官方技术支持QQ号**
-
-![](./images/QRcode_QQ.png)
-
-**官方技术交流QQ群号**
-
-![](./images/QRcode_QQ_group.png)
+[MU3 3D打印外壳](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_App/images/GIF/GIF_APP_Control0.gif)
 
 # 平台链接
 

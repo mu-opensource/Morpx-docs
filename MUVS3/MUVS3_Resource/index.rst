@@ -10,5 +10,5 @@ MU Vision Sensor 资源
     :maxdepth: 1
     :glob: 
 	
-    Resource_MUVS3.md
+    MUVS3_Resource.md
 	
