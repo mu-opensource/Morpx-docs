@@ -15,7 +15,7 @@
     MUVS3/MUVS3_Arduino/index
     MUVS3/MUVS3_MakeCode/index
     MUVS3/MUVS3_MicroPython/index
-    MoonBot/MoonBot_Resource/index
+    MUVS3/MUVS3_Resource/index
 	
 .. toctree::
     :maxdepth: 1
