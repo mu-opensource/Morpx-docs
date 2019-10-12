@@ -1,19 +1,25 @@
 # 技术资料
 
-感谢您购买使用MoonBot Kit，我司会持续更新本产品的固件以及配套的资料，您可以从如下网址获取最新的技术资料：
+在以下网址可获取最新的MoonBot Kit技术资料：
 
-官网：<http://mai.morpx.com/page.php?a=moonbot-kit>
+官网技术支持：<http://mai.morpx.com/page.php?a=moonbot-kit>
 
 GitHub：<https://github.com/mu-opensource/>
 
 # 3D装配图
 
-在网盘下载MoonBot Kit的三形态3D图， [网盘链接](https://pan.baidu.com/s/1H0bqjfQkbCjdKpvkfHyFAg)  提取码：rans 
+在网盘下载MoonBot Kit的三形态3D图：
 
-STP文件为通用3D格式，可用主流3D软件如solidworks,CREO打开。模型可用于查看MoonBot Kit的装配细节，测量相应尺寸，模型渲染等。
+[网盘链接](https://pan.baidu.com/s/1H0bqjfQkbCjdKpvkfHyFAg)  提取码：rans 
+
+![](./images/model_3D_MoonBot.png)
+
+STP文件为通用3D格式，可用主流3D软件如solidworks，CREO等打开。模型可用于查看MoonBot Kit的装配细节，测量相应尺寸，Keyshot模型渲染等。
 注意该模型内塑料件和钣金件均针对开模设计，不建议用于FDM 3D打印。
 
 # 平台链接
+
+MoonBot Kit兼容Arduino开源平台，查看其相关网站来学习基础知识。
 
 **Mixly:**
 
