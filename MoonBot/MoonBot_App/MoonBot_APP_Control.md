@@ -1,8 +1,12 @@
 # APP控制器
 
-首次进入APP控制器功能，选择对应搭建好的形态。
+MoonBot的官方形态可以通过 Mu Bot app直接控制，完成移动、视觉避障等基础功能。
+
+[APP演示视频](https://v.qq.com/x/page/o3008apqrlv.html)
 
 ## 控制器使用简介
+
+首次进入APP控制器功能，选择对应搭建好的形态。
 
 ![](./images/MoonBot_App_C.jpg)
 
