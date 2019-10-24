@@ -41,6 +41,8 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 *目前仅支持I2C模式
 
+![](./images/MUVS3_microbit_connect.png)
+
 # API使用说明
 
 ## 初始化传感器

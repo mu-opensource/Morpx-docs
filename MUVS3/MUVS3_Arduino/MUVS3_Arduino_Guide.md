@@ -34,6 +34,8 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 3）将模块输出接口SDA口接至Arduino对应的SDA口，SCL口接至Arduino对应的SCL口。
 
+![](./images/MUVS3_Arduino_connect.png)
+
 ## 串口模式
 
 1）将模块左侧输出模式拨码开关1、2都拨至下方，切换至串口模式；
