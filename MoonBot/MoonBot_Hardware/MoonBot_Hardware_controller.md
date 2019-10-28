@@ -32,6 +32,10 @@
 
 ![](./images/Mixly_example_controller_LEDbutton.png)
 
+实物图：
+
+![](./images/photo_LEDbutton.png)
+
 ### 主控蜂鸣器示例
 
 该程序介绍主控蜂鸣器的编程方法，用两种方式让蜂鸣器发出警报声。

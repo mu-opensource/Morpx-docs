@@ -28,3 +28,7 @@
 将扬声器连接至主控口，设置播放模式为随机播放，自定义扬声器音量大小，循环检测按键A的状态，当A被按下时，扬声器播放/暂停。
 
 ![](./images/Mixly_example_speaker.png)
+
+实物图：
+
+![](./images/photo_speaker.png)

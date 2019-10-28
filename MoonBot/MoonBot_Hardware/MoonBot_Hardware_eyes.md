@@ -29,6 +29,10 @@ LED灯数量：12
 
 ![](./images/Mixly_example_eyes.png)
 
+实物图：
+
+![](./images/photo_eyes.png)
+
 ### 单灯控制
 
 程序介绍：LED灯从第1颗到第12颗逐颗亮起设置的RGB颜色灯，等待1秒后灯光关闭

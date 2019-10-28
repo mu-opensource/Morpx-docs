@@ -30,3 +30,7 @@
 当红外传感器两路同时被检测到有障碍时，主控LED两个灯亮红色，检测到一路障碍时，主控LED亮程序中对应的红灯。
 
 ![](./images/Mixly_example_infrared.png)
+
+实物图：
+
+![](./images/photo_infrared.png)

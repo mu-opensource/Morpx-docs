@@ -36,6 +36,10 @@
 
 ![](./images/Mixly_example_servo_calibrate.png)
 
+实物图：
+
+![](./images/photo_servo.png)
+
 ### 舵机转动
 
 舵机转动有两种方式，设定转至角度和时间，或者预设角度和速度后同步移动。前一种方式通常用于单舵机转动，后一种方式用于多个舵机同时转动。

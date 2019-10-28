@@ -40,6 +40,10 @@
 
 ![](./images/Mixly_example_motor_tankbase.png)
 
+实物图：
+
+![](./images/photo_motor.png)
+
 ### 电机独立控制
 
 除了集成的底盘控制方式外，也可直接控制电机1和2。

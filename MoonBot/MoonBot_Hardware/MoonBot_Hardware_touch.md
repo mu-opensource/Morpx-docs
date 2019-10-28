@@ -23,3 +23,7 @@
 程序介绍：将触摸模块连接至主控口P1，循环检测触摸传感器状态，被触摸时主控LED亮红灯，否则主控LED不亮灯。
 
 ![](./images/Mixly_example_touch.png)
+
+实物图：
+
+![](./images/photo_touch.png)
