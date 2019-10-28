@@ -36,10 +36,6 @@
 
 ![](./images/Mixly_example_servo_calibrate.png)
 
-实物图：
-
-![](./images/photo_servo.png)
-
 ### 舵机转动
 
 舵机转动有两种方式，设定转至角度和时间，或者预设角度和速度后同步移动。前一种方式通常用于单舵机转动，后一种方式用于多个舵机同时转动。
@@ -48,3 +44,7 @@
 程序介绍：初始化设定舵机校正角度和转动方向。循环程序先使用舵机角度和延时控制舵机转至30度，再使用同步移动方式控制舵机快速转至150度。
 
 ![](./images/Mixly_example_servo_move.png)
+
+实物图：
+
+![](./images/photo_servo.png)
