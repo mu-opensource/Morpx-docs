@@ -8,9 +8,9 @@ GitHub：<https://github.com/mu-opensource/>
 
 # 3D装配图
 
-在网盘下载MoonBot Kit的三形态3D图：
+在此下载MoonBot Kit的三形态3D图：
 
-[网盘链接](https://pan.baidu.com/s/1H0bqjfQkbCjdKpvkfHyFAg)  提取码：rans 
+[MoonBot Kit 3D 装配图](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Resource/sources/MoonBot_Kit_asm.zip) 
 
 ![](./images/model_3D_MoonBot.png)
 
