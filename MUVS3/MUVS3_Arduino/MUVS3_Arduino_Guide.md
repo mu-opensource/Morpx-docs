@@ -46,20 +46,20 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 # 示例说明
 
-ball
+ball：球检测示例
 
-body
+body：人体检测示例
 
-colorDetect
+colorDetect：颜色检测示例
 
-colorRecognition
+colorRecognition：颜色识别示例
 
-getTargetPosition
+getTargetPosition：获取目标位置示例
 
-numberCard
+numberCard：数字卡片示例
 
-shapeCard
+shapeCard：形状卡片示例
 
-trafficCard
+trafficCard：交通卡片示例
 
-arduino_base_interface
+arduino_base_interface：串口直接发送字符示例
