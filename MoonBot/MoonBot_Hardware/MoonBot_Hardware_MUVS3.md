@@ -52,7 +52,7 @@
 
 [MU 3 Mixly 教程](https://morpx-docs.readthedocs.io/zh_CN/latest/MUVS3/MUVS3_Mixly/index.html)
 
-注意该视觉模块和MU视觉传感器的区别，由于有wifi连接app的功能，视觉模块默认和主控采用串口连接，使用Mixly或Arduino进行开发，初始化程序参考以上示例。
+**注意该视觉模块和MU视觉传感器的区别，由于有wifi连接app的功能，视觉模块默认和主控采用串口连接，使用Mixly或Arduino进行开发，初始化程序参考以上示例。**
 
 ### wifi连接app
 
