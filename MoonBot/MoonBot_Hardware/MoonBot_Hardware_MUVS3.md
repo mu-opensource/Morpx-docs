@@ -50,9 +50,9 @@
 
 ![](./images/photo_MUVS3.png)
 
-该程序较为简单，主要为了展示视觉模块的连接和程序初始化。
-**注意MoonBot视觉模块和MU视觉传感器的区别，视觉模块默认和主控采用串口连接，使用Mixly或Arduino进行开发，且独有wifi连接MU Bot App的功能，初始化程序参考以上示例。**
-更多编程块和示例程序可参考
+> 注意MoonBot视觉模块和MU视觉传感器的区别，视觉模块默认和主控采用串口连接，使用Mixly或Arduino进行开发，且独有wifi连接MU Bot App的功能，初始化程序参考以上示例。
+
+该程序较为简单，主要为了展示视觉模块的连接和程序初始化。更多编程块和示例程序可参考
 
 [MU 3 Mixly 教程](https://morpx-docs.readthedocs.io/zh_CN/latest/MUVS3/MUVS3_Mixly/index.html)
 
