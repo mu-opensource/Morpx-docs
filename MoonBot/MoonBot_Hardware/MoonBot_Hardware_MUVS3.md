@@ -12,13 +12,13 @@
 
 尺寸：37 x 37 x 15 mm
 
-主控芯片：[ESP32](./sources/datasheet_esp32_cn.pdf)
+主控芯片：[ESP32](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Hardware/sources/datasheet_esp32_cn.pdf)
 
-摄像头：[OV7725](./sources/datasheet_OV7725_en.pdf)
+摄像头：[OV7725](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Hardware/sources/datasheet_OV7725_en.pdf)
 
 视角：85°
 
-光线传感器：[APDS9960](./sources/datasheet_APDS-9960_en.pdf)
+光线传感器：[APDS9960](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_Hardware/sources/datasheet_APDS-9960_en.pdf)
 
 板载资源：按键、LED指示灯
 
