@@ -1,9 +1,17 @@
-# 3D打印支架
-
-对于购买MU裸板的用户，我们提供了3D打印的外壳和折叠支架文件，可以在小车等使用场景下固定和调节传感器的角度，有3D打印机的创客可自行打印。
-
-[MU3 3D打印支架](https://github.com/mu-opensource/Morpx-docs/raw/master/MUVS3/MUVS3_Resource/sources/MU_foldable_bracket.zip)
-
-![](./images/bracket_foldable_MU.png)
-
 # 自动炮台
+
+
+
+
+
+# 网帖汇总
+
+[掌控慧眼小MU系列教程](https://makelog.dfrobot.com.cn/article-1746.html)
+
+[小MU|小狗狗，认数字](http://mc.dfrobot.com.cn/thread-296734-1-1.html)
+
+[人工智能（障）——麦昆人体识别与追踪](http://mc.dfrobot.com.cn/thread-296584-1-1.html)
+
+[自动跟随的麦克纳姆轮小车](http://mc.dfrobot.com.cn/thread-296803-1-1.html)
+
+[小MU掌控板之乘法连连看](http://mc.dfrobot.com.cn/thread-296782-1-1.html)
