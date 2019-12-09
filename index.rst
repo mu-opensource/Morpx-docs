@@ -16,6 +16,7 @@
     MUVS3/MUVS3_MakeCode/index
     MUVS3/MUVS3_MicroPython/index
     MUVS3/MUVS3_Resource/index
+    MUVS3/MUVS3_Application/index
 	
 .. toctree::
     :maxdepth: 1
@@ -29,7 +30,14 @@
     MoonBot/MoonBot_Arduino/index
     MoonBot/MoonBot_Extension/index
     MoonBot/MoonBot_Resource/index
+
+.. toctree::
+    :maxdepth: 1
+    :caption: 技术支持
 	
+    Support/contact
+    Support/about
+
 .. toctree::
     :maxdepth: 1
     :caption: 版权与许可
@@ -37,9 +45,3 @@
     Copyrights/index_product
     Copyrights/index_software
 	
-.. toctree::
-    :maxdepth: 1
-    :caption: 技术支持
-	
-    Support/contact
-    Support/about
