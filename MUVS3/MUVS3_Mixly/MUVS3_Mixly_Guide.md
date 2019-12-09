@@ -50,11 +50,23 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 (3)将模块输出接口RX口接至Arduino对应的TX口，TX口接至Arduino对应的RX口。
 
+## AT指令模式（适用于V1.1.5及以上版本的固件）
+
+1）将模块左侧输出模式拨码开关1拨至下方，2都拨至上方，切换至AT指令模式；
+
+2）将MU输出接口`RX`口接至 Arduino 对应的`TX`口，`TX`口接至 Arduino 对应的`RX`口。
+
+## 图传模式（适用于V1.1.5及以上版本的固件）
+
+1）将模块左侧输出模式拨码开关1、2都拨至上方，切换至图传模式；
+
+2）将MU输出接口`RX`口接至 Arduino 对应的`TX`口，`TX`口接至 Arduino 对应的`RX`口。
+
 # 模块使用介绍
 
 ## 模块说明
 
-**初始化模块**
+### 初始化模块
 
 (1)硬件串口：视觉传感器使用串口模式，连接主控的硬件串口时主控初始化，该串口为主控和电脑端的串口通信，用于视觉会占用，电脑端打印字符会错乱或通信异常；
 
@@ -68,36 +80,36 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 ![](./images/Mixly_block_i2c_init.png)
 
-**开启算法**
+### 开启算法
 
 ![](./images/Mixly_block_enable_algorithm.png)
 
-**设置算法性能**
+### 设置算法性能
 
 ![](./images/Mixly_block_algorithm_performance.png)
 
-**开启摄像头高帧率模式**
+### 开启摄像头高帧率模式
 
 识别速度增加，同时功耗、发热量增加。
 
 ![](./images/Mixly_block_highFPS.png)
 
-**设置摄像头白平衡**
+### 设置摄像头白平衡
 
 调节因为外界光源变化而引起的图像偏色。
 
 ![](./images/Mixly_block_setWB.png)
 
-**板载LED灯光设置**
+### 板载LED灯光设置
 
 ![](./images/Mixly_block_setLED.png)
 
-**恢复模块默认设置**
+### 恢复模块默认设置
 关闭所有算法，重置所有硬件设置。
 
 ![](./images/Mixly_block_setdefault.png)
 
-**获取算法识别结果**
+### 获取算法识别结果
 
 (1) 球、人体
 
@@ -115,19 +127,125 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 ![](./images/Mixly_block_color_block.png)
 
+### 光线传感器启用功能
+
+启用光线传感器中对应的功能，手势检测功能无法与其他功能同时工作。
+
+![](./images/Mixly_block_ls_begin.png)
+
+### 光线传感器设置灵敏度
+
+设置光线传感器灵敏度，该功能只对接近检测、光线检测有效。
+
+![](./images/Mixly_block_ls_set_sensitivity.png)
+
+### 光线传感器读取接近检测值
+
+读取接近检测值，距离越近，返回值越大。
+
+![](./images/Mixly_block_ls_read_proximity.png)
+
+### 光线传感器读取环境光检测值
+
+读取环境光检测值，周围环境光越亮，返回值越大。
+
+![](./images/Mixly_block_ls_read_als.png)
+
+### 光线传感器是否检测到手势
+
+读取手势检测值，当未检测到时返回0。
+
+![](./images/Mixly_block_ls_detect_gesture.png)
+
+### 光线传感器判断手势结果
+
+比较手势检测结果是否为某一手势。
+
+![](./images/Mixly_block_ls_read_gesture.png)
+
+### *WiFi AT 指令设置*
+
+*以下模块仅在图传/AT 指令模式下使用*
+
+### WiFi 初始化端口
+
+初始化 WiFi 对应的端口及其波特率
+
+![](./images/Mixly_block_wifi_begin.png)
+
+### 配置 WiFi
+
+设置 WiFi 模式及账户密码
+
+![](./images/Mixly_block_wifi_config.png)
+
+### 连接/创建 WiFi
+
+尝试连接/创建 WiFi，并返回当前连接状态
+
+![](./images/Mixly_block_wifi_connect.png)
+
+### 断开/关闭 WiFi
+
+断开/关闭 WiFi
+
+![](./images/Mixly_block_wifi_disconnect.png)
+
+### 设置目标 IP
+
+设置目标 IP
+
+![](./images/Mixly_block_wifi_set_target_ip.png)
+
+### 读取目标 IP
+
+读取目标 IP
+
+![](./images/Mixly_block_wifi_read_target_ip.png)
+
+### 读取本地 IP
+
+读取本地 IP
+
+![](./images/Mixly_block_wifi_read_local_ip.png)
+
+### WiFi 读取
+
+读取目标 IP 发送给 MU 的消息
+
+![](./images/Mixly_block_wifi_read.png)
+
+### WiFi 写入
+
+向目标 IP 发送消息
+
+![](./images/Mixly_block_wifi_write.png)
+
 ## 完整示例
 
-**颜色识别**
+### 颜色识别
 
 ![](./images/Mixly_example_color_recognition.png)
 
-**球体检测**
+### 球体检测
 
 ![](./images/Mixly_example_ball_detect.png)
 
-**形状卡片检测**
+### 形状卡片检测
 
 ![](./images/Mixly_example_card_detect.png)
+
+### 光线传感器-手势识别
+
+![](./images/Mixly_block_ls_gesture_detect.png)
+
+### 光线传感器-接近检测/环境光亮度检测
+
+![](./images/Mixly_block_ls_als_proximity_detect.png)
+
+### AT指令连接WiFi
+
+![](./images/Mixly_code_AT_wifi_set.png)
 
 # 常见问题
 
@@ -143,9 +261,9 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 (3) 检查输出模式拨码开关和地址选择拨码开关是否是拨至正确位置。
 
-(4) 模块从上电到初始化完成需要一段时间，建议在“设置”模块前加入一段不小于500ms的延时。  
+(4) 模块从上电到初始化完成需要一段时间，建议在“设置”模块前加入一段不小于500ms的延时。
  
-(5) 点击模块Reset按钮，模块正面两个LED会短暂闪烁一次光。红光则表示当前模式为串口模式，绿光则表示当前模式为I2C模式。若光的颜色与输出模式拨码开关不符，则可能为拨码开关松动，重新拨动拨码开关至正确位置即可。  
+(5) 点击模块Reset按钮，模块正面两个LED会短暂闪烁一次光。红光则表示当前模式为串口模式，绿光则表示当前模式为I2C模式。若光的颜色与输出模式拨码开关不符，则可能为拨码开关松动，重新拨动拨码开关至正确位置即可。
 
 3.我下载了程序，串口有正确的内容输出，但是LED灯光不亮怎么办？  
 
