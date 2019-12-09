@@ -31,7 +31,7 @@ MoonBot Kit 遥控器固件升级向导
 
 ## 通过Arduino IDE编译Arduino源码进行升级
 
-- 1.搭建[MoonBot Kit Arduino 开发环境](../MoonBot_Arduino/MoonBot_arduino_development_construction_guide_cn.md)
+- 1.搭建[MoonBot Kit Arduino 开发环境](../MoonBot_Arduino/MoonBot_arduino_development_construction_guide.md)
 - 2.下载[MoonBot Kit 主控遥控器源码](https://github.com/mu-opensource/MoonBot_RemoteController/releases/latest)(Source.zip 文件)
 - 3.打开 Arduino IDE，点击`项目->加载库->添加.ZIP库`，选择第2步下载的.zip文件文件
 
