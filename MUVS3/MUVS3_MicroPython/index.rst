@@ -9,8 +9,8 @@ MU 3 MicroPython 教程
 本文介绍MU Vision Sensor 3与Micro:bit通过MicroPython进行编程开发的教程。
 
 .. toctree::
-    :maxdepth: 1
-    :glob: 
-	
+    :maxdepth: 2
+    :glob:
+
     MUVS3_MicroPython_Guide.md
-	
+
