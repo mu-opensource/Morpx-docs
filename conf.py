@@ -18,7 +18,7 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = u'摩图科技的文档'
+project = u'Morpx Docs'
 copyright = u'2019, Morpx'
 author = u'Morpx'
 

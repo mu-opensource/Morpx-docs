@@ -1,9 +1,9 @@
-.. morpx documentation master file, created by
+.. morpx documentation master file, created by xyp
    sphinx-quickstart on Fri Jul 19 17:00:19 2019.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-欢迎来到MU的文档
+欢迎来到摩图科技的文档
 ===============================
 
 .. toctree::
