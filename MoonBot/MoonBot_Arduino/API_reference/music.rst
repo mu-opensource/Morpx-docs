@@ -16,6 +16,7 @@ MoonBot Kit 提供了两类发声设备，分别是 :doc:`../../MoonBot_Hardware
 我们可以通过调用宏定义 ``MOONBOT_PIN_BUZZER_SIG`` 来获取对应的 Arduino 引脚，通过控制引脚 ``MOONBOT_PIN_BUZZER_SHDW`` 电平的高低来开启或关闭板载的蜂鸣器功能。
 
 .. code-block:: cpp
+
     :emphasize-lines: 7
 
     #include <MoonBot.h>
@@ -33,6 +34,7 @@ MoonBot Kit 提供了两类发声设备，分别是 :doc:`../../MoonBot_Hardware
     如上述例程的第七行所述：
 
     .. code-block:: cpp
+
         :lineno-start: 7
 
         digitalWrite(MOONBOT_PIN_BUZZER_SHDW, LOW);     // 将蜂鸣器供电引脚拉低以开启蜂鸣器
