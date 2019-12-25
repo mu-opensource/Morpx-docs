@@ -40,7 +40,7 @@ MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 集成了�
 
 .. code-block:: cpp
 
-    // 获取俯仰角（±180°），主控向上角度为正，向下角度为负 
+    // 获取俯仰角（±180°），主控向上角度为正，向下角度为负
     int pitch = IMU.getAccAngle(kAccPitch);
     // 获取横滚角（±180°），主控右倾为正，左倾为正
     int roll = IMU.getAccAngle(kAccRoll);
@@ -62,7 +62,7 @@ MoonBot Kit :doc:`../../MoonBot_Hardware/MoonBot_Hardware_controller` 集成了�
 
 .. code-block:: cpp
 
-    void loop() 
+    void loop()
     {
         if (IMU.on(kIMUShake)) {
             // 如果当前主控在晃动

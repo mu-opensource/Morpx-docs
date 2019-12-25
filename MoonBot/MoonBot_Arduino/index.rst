@@ -10,12 +10,12 @@ MoonBot Kit Arduino 教程
 
 .. toctree::
     :maxdepth: 1
-    :glob: 
-	
+    :glob:
+
     MoonBot_arduino_development_construction_guide.md
-	
+
 .. toctree::
     :maxdepth: 2
-    :glob: 
+    :glob:
 
     API_reference/index
