@@ -14,7 +14,6 @@ MakeCode在线编程：`MakeCode for micro:bit <https://makecode.microbit.org/#>
 
 .. toctree::
     :maxdepth: 1
-    :glob: 
-	
+    :glob:
+
     MUVS3_MakeCode_Guide.md
-	
