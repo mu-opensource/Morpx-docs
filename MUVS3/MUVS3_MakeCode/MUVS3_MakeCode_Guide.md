@@ -1,43 +1,50 @@
 # 传感器扩展库导入
-打开MakeCode并新建一个项目，在模块工具箱中点击“高级”——“扩展”；
+
+打开MakeCode并新建一个项目，在模块工具箱中点击`高级`->`扩展`；
 
 ![](./images/MUVS3_Makecode_extension.png)
 
-搜索**mu-opensource/pxt-MuVisionSensor3**，点击卡片完成添加。
+搜索 `mu-opensource/muvision` (旧版链接 `mu-opensource/pxt-MuVisionSensor3` 已弃用，请尽快转至新版库)，点击卡片完成添加。
 
-![](./images/MUVS3_Makecode_extension_MU.png)
+<!-- ![](./images/MUVS3_Makecode_extension_MU.png) -->
 
 ![](./images/MUVS3_Makecode_imported.png)
 
 # Micro:bit硬件连接
 
-MU Vision Sensor 3的外设和接口如图所示：
+MU Vision Sensor 3 的外设和接口如图所示：
 
 ![](./images/MUVS3_pinout.png)
 
 ## I2C模式
 
-（1）将传感器左侧输出模式拨码开关1拨至下方，2拨至上方；
-
-（2）将传感器输出接口SDA引脚（P1）和SCL引脚（P2）接至Micro:bit 对应的 SDA引脚（P20）与SCL引脚（P19），同时将P3接地，P4接电源（3.3-5V）；
-
-（3）将传感器的地址选择拨码开关拨至对应位（默认地址0x60则 1、2都在下方，不推荐修改此设置）。
+1. 将传感器左侧输出模式拨码开关1拨至下方，2拨至上方；
+2. 将传感器输出接口SDA引脚（P1）和SCL引脚（P2）接至 Micro:bit 对应的 SDA 引脚（P20）与 SCL 引脚（P19），同时将 P3 接地， P4 接电源（3.3-5V）；
+3. 将传感器的地址选择拨码开关拨至对应位（默认地址`0x60`则 1、2都在下方，不推荐修改此设置）。
 
 ![](./images/MUVS3_microbit_connect.png)
 
 ## 串口模式
 
-（1）将传感器左侧输出模式拨码开关1、2均拨至下方；
+1. 将传感器左侧输出模式拨码开关1、2均拨至下方；
+2. 将传感器输出接口RX引脚（P1）接至Micro:bit 对应的TX 引脚， TX引脚（P2）口接至Micro:bit 对应的RX 引脚，同时将P3接地，P4接电源（3.3-5V）；
+3. 将传感器的地址选择拨码开关拨至对应位（默认地址0x60则 1、2都在下方，不推荐修改此设置）。
 
-（2）将传感器输出接口RX引脚（P1）接至Micro:bit 对应的TX 引脚， TX引脚（P2）口接至Micro:bit 对应的RX 引脚，同时将P3接地，P4接电源（3.3-5V）；
+*当前版本中串口模式下Micro:bit将无法通过USB串口打印调试信息，串口波特率固定为9600。*
 
-（3）将传感器的地址选择拨码开关拨至对应位（默认地址0x60则 1、2都在下方，不推荐修改此设置）。
+## AT指令模式（适用于V1.1.5及以上版本的固件）
 
-*当前版本中串口模式下Micro:bit将无法通过USB串口打印调试信息；串口波特率固定为9600。*
+1. 将模块左侧输出模式拨码开关1拨至下方，2都拨至上方，切换至AT指令模式；
+2. 将MU输出接口`RX`口接至 Arduino 对应的`TX`口，`TX`口接至 Arduino 对应的`RX`口。
+
+## 图传模式（适用于V1.1.5及以上版本的固件）
+
+1. 将模块左侧输出模式拨码开关1、2都拨至上方，切换至图传模式；
+2. 将MU输出接口`RX`口接至 Arduino 对应的`TX`口，`TX`口接至 Arduino 对应的`RX`口。
 
 # 模块使用介绍
 
-## 模块说明
+## 通用模块说明
 
 **1.初始化模块**
 
@@ -104,6 +111,72 @@ MU Vision Sensor 3的外设和接口如图所示：
 关闭所有算法，重置所有硬件设置
 
 ![](./images/Makecode_block_setdefault.png)
+
+**9.光线传感器开启功能**
+
+开启光线传感器对应功能，手势检测功能无法与其他功能共用。
+
+![](./images/Makecode_block_ls_begin.png)
+
+**10.光线传感器设置灵敏度**
+
+![](./images/Makecode_block_ls_set_sensitivity.png)
+
+**11.光线传感器读取接近检测数值**
+
+![](./images/Makecode_block_ls_read_proximity.png)
+
+**12.光线传感器读取环境光检测数值**
+
+![](./images/Makecode_block_ls_read_als.png)
+
+**13.光线传感器读取手势检测状态**
+
+![](./images/Makecode_block_ls_gesture_status.png)
+
+**13.光线传感器读取手势检测结果**
+
+![](./images/Makecode_block_ls_gesture_value.png)
+
+## WiFi 配置模块
+
+WiFi 配置模块只能在 `WiFi` 和 `图传` 模式下使用。
+
+**1.读取本地 IP**
+
+读取 MU 的 IP。
+
+![](./images/Makecode_block_wifi_read_sip.png)
+
+**2.读取目标 IP**
+
+读取目标 IP。
+
+![](./images/Makecode_block_wifi_read_cip.png)
+
+**3.WiFi 配置**
+
+配置 WiFi 账号密码及模式。
+
+![](./images/Makecode_block_wifi_set.png)
+
+**4.WiFi 连接**
+
+尝试开启/关闭 WiFi 连接，若成功，则返回 `true`。
+
+![](./images/Makecode_block_wifi_con.png)
+
+**5.WiFi 配置目标 IP**
+
+配置目标 IP，需 WiFi 连接成功后调用才生效。
+
+![](./images/Makecode_block_wifi_udp.png)
+
+**6.WiFi 读取透传数据**
+
+读取目标设备向 MU 发送的数据。
+
+![](./images/Makecode_block_wifi_read.png)
 
 ## 完整示例
 
