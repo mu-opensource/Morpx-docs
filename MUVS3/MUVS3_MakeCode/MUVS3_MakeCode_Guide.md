@@ -4,9 +4,9 @@
 
 ![](./images/MUVS3_Makecode_extension.png)
 
-搜索 `mu-opensource/muvision` (旧版链接 `mu-opensource/pxt-MuVisionSensor3` 已弃用，请尽快转至新版库)，点击卡片完成添加。
+搜索 `muvision` 或 `mu` (旧版链接 `mu-opensource/pxt-MuVisionSensor3` 已弃用，请尽快转至新版库)，点击卡片完成添加。
 
-<!-- ![](./images/MUVS3_Makecode_extension_MU.png) -->
+![](./images/MUVS3_Makecode_extension_MU.png)
 
 ![](./images/MUVS3_Makecode_imported.png)
 
@@ -231,3 +231,5 @@ WiFi 配置模块只能在 `WiFi` 和 `图传` 模式下使用。
 实验现象：未检测到数字卡片时视觉传感器闪红灯，检测到时闪蓝灯，当识别到卡片为1时Micro:bit显示数字1，识别到卡片2时显示数字2。
 
 ![](./images/Makecode_example_serial.png)
+
+更多例程可参考：<https://makecode.microbit.org/pkg/mu-opensource/pxt-muvision>
