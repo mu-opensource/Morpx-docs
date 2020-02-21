@@ -35,7 +35,9 @@ MU Vision Sensor 3的外设和接口如图所示：
 ## I2C模式
 
 1. 将模块左侧输出模式拨码开关1拨至下方，2拨至上方，切换至I2C模式；
+
 2. (不推荐修改此设置)将模块右侧的地址选择拨码开关拨至对应位(默认地址0x60，1、2都在下方)；
+
 3. 将模块输出接口SDA口接至Arduino对应的SDA口，SCL口接至Arduino对应的SCL口。
 
 ![](./images/MUVS3_Arduino_connect.png)
@@ -43,22 +45,26 @@ MU Vision Sensor 3的外设和接口如图所示：
 ## 串口模式
 
 1. 将模块左侧输出模式拨码开关1、2都拨至下方，切换至串口模式；
+
 2. (不推荐修改此设置)将模块的地址选择拨码开关拨至对应位(默认地址1、2都在下方)；
+
 3. 将模块输出接口RX口接至Arduino对应的TX口，TX口接至Arduino对应的RX口。
 
 ## AT指令模式（适用于V1.1.5及以上版本的固件）
 
 1. 将模块左侧输出模式拨码开关1拨至下方，2都拨至上方，切换至AT指令模式；
+
 2. 将MU输出接口`RX`口接至 Arduino 对应的`TX`口，`TX`口接至 Arduino 对应的`RX`口。
 
 ## 图传模式（适用于V1.1.5及以上版本的固件）
 
 1. 将模块左侧输出模式拨码开关1、2都拨至上方，切换至图传模式；
+
 2. 将MU输出接口`RX`口接至 Arduino 对应的`TX`口，`TX`口接至 Arduino 对应的`RX`口。
 
-# 模块使用介绍
+# 模块说明
 
-## 模块说明
+## 设置模块
 
 ### 初始化模块
 
@@ -99,9 +105,12 @@ MU Vision Sensor 3的外设和接口如图所示：
 ![](./images/Mixly_block_setLED.png)
 
 ### 恢复模块默认设置
+
 关闭所有算法，重置所有硬件设置。
 
 ![](./images/Mixly_block_setdefault.png)
+
+## 运行模块
 
 ### 获取算法识别结果
 
@@ -121,41 +130,45 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 ![](./images/Mixly_block_color_block.png)
 
-### 光线传感器启用功能
+## 光线传感器
+
+### 启用功能
 
 启用光线传感器中对应的功能，手势检测功能无法与其他功能同时工作。
 
 ![](./images/Mixly_block_ls_begin.png)
 
-### 光线传感器设置灵敏度
+### 设置灵敏度
 
 设置光线传感器灵敏度，该功能只对接近检测、光线检测有效。
 
 ![](./images/Mixly_block_ls_set_sensitivity.png)
 
-### 光线传感器读取接近检测值
+### 读取接近检测值
 
 读取接近检测值，距离越近，返回值越大。
 
 ![](./images/Mixly_block_ls_read_proximity.png)
 
-### 光线传感器读取环境光检测值
+### 读取环境光检测值
 
 读取环境光检测值，周围环境光越亮，返回值越大。
 
 ![](./images/Mixly_block_ls_read_als.png)
 
-### 光线传感器是否检测到手势
+### 是否检测到手势
 
 读取手势检测值，当未检测到时返回0。
 
 ![](./images/Mixly_block_ls_detect_gesture.png)
 
-### 光线传感器判断手势结果
+### 判断手势结果
 
 比较手势检测结果是否为某一手势。
 
 ![](./images/Mixly_block_ls_read_gesture.png)
+
+## WiFi模块
 
 ### *WiFi AT 指令设置*
 
@@ -215,29 +228,29 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 ![](./images/Mixly_block_wifi_write.png)
 
-## 完整示例
+# 完整示例
 
-### 颜色识别
+## 颜色识别
 
 ![](./images/Mixly_example_color_recognition.png)
 
-### 球体检测
+## 球体检测
 
 ![](./images/Mixly_example_ball_detect.png)
 
-### 形状卡片检测
+## 形状卡片检测
 
 ![](./images/Mixly_example_card_detect.png)
 
-### 光线传感器-手势识别
+## 光线传感器-手势识别
 
 ![](./images/Mixly_block_ls_gesture_detect.png)
 
-### 光线传感器-接近检测/环境光亮度检测
+## 光线传感器-接近检测/环境光亮度检测
 
 ![](./images/Mixly_block_ls_als_proximity_detect.png)
 
-### AT指令连接WiFi
+## AT指令连接WiFi
 
 ![](./images/Mixly_code_AT_wifi_set.png)
 

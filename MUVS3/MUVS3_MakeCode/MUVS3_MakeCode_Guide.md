@@ -19,7 +19,9 @@ MU Vision Sensor 3 的外设和接口如图所示：
 ## I2C模式
 
 1. 将传感器左侧输出模式拨码开关1拨至下方，2拨至上方；
+
 2. 将传感器输出接口SDA引脚（P1）和SCL引脚（P2）接至 Micro:bit 对应的 SDA 引脚（P20）与 SCL 引脚（P19），同时将 P3 接地， P4 接电源（3.3-5V）；
+
 3. 将传感器的地址选择拨码开关拨至对应位（默认地址`0x60`则 1、2都在下方，不推荐修改此设置）。
 
 ![](./images/MUVS3_microbit_connect.png)
@@ -27,7 +29,9 @@ MU Vision Sensor 3 的外设和接口如图所示：
 ## 串口模式
 
 1. 将传感器左侧输出模式拨码开关1、2均拨至下方；
+
 2. 将传感器输出接口RX引脚（P1）接至Micro:bit 对应的TX 引脚， TX引脚（P2）口接至Micro:bit 对应的RX 引脚，同时将P3接地，P4接电源（3.3-5V）；
+
 3. 将传感器的地址选择拨码开关拨至对应位（默认地址0x60则 1、2都在下方，不推荐修改此设置）。
 
 *当前版本中串口模式下Micro:bit将无法通过USB串口打印调试信息，串口波特率固定为9600。*
@@ -35,34 +39,36 @@ MU Vision Sensor 3 的外设和接口如图所示：
 ## AT指令模式（适用于V1.1.5及以上版本的固件）
 
 1. 将模块左侧输出模式拨码开关1拨至上方，2拨至下方，切换至AT指令模式；
+
 2. 将MU输出接口`RX`口接至Micro:bit对应的`TX`口，`TX`口接至Micro:bit对应的`RX`口。
 
 ## 图传模式（适用于V1.1.5及以上版本的固件）
 
 1. 将模块左侧输出模式拨码开关1、2都拨至上方，切换至图传模式；
+
 2. 将MU输出接口`RX`口接至Micro:bit对应的`TX`口，`TX`口接至Micro:bit对应的`RX`口。
 
 # 模块使用介绍
 
-## 通用模块说明
+## MU视觉传感器
 
-**1.初始化模块**
+### 初始化模块
 
-（1）Serial模式：根据Micro:bit与小MU视觉传感器的硬件连接自定义串口重定向模块中的TX、RX引脚号，示例中采用了Micro:bit的P12与P13。
+1. Serial模式：根据Micro:bit与小MU视觉传感器的硬件连接自定义串口重定向模块中的TX、RX引脚号，示例中采用了Micro:bit的P12与P13。
 
 ![](./images/Makecode_block_serial_init.png)
 
-（2）I2C模式：Micro:bit与小MU视觉传感器的连接初始化为I2C模式。
+2. I2C模式：Micro:bit与小MU视觉传感器的连接初始化为I2C模式。
 
 ![](./images/Makecode_block_i2c_init.png)
 
-**2.开启算法**
+### 开启算法
 
 当前版本共有如下7种算法，每种算法的具体分类和返回结果详见小MU视觉传感器技术规格书文档。
 
 ![](./images/Makecode_block_enable_algorithm.png)
 
-**3.设置算法性能**
+### 设置算法性能
 
 不同算法性能下识别的速度与准确率会有所差异，可根据实际的应用需要选择合适的性能参数。
 
@@ -74,19 +80,19 @@ MU Vision Sensor 3 的外设和接口如图所示：
 
 ![](./images/Makecode_block_algorithm_performance.png)
 
-**4.关闭/开启摄像头高帧率模式**
+### 关闭/开启摄像头高帧率模式
 
 默认使用高帧率模式，相对普通模式有更快的识别速度，但功耗和发热量随之增加，可用于快速检测的场景，如需要低功耗使用则可关闭。
 
 ![](./images/Makecode_block_highFPS.png)
 
-**5.设置摄像头白平衡**
+### 设置摄像头白平衡
 
 当摄像头视野中出现大面积有颜色的物体时，摄像头会发生白平衡失真，产生偏色现象，通过事先锁定白平衡能够防止此问题的发生。在调用此编程模块时，需要将摄像头朝向白纸距离约20厘米进行测光，数秒后摄像头的白平衡会自动被锁定。
 
 ![](./images/Makecode_block_setWB.png)
 
-**6.设置摄像头数码变焦**
+### 设置摄像头数码变焦
 
 数码变焦等级越大可检测的距离越远，但视野范围会变窄。
 
@@ -96,7 +102,7 @@ MU Vision Sensor 3 的外设和接口如图所示：
 
 ![](./images/Makecode_block_setzoom.png)
 
-**7.板载LED灯光设置**
+### 板载LED灯光设置
 
 小MU视觉传感器正面板载的两颗LED灯每闪烁一次表示执行一帧图像识别。
 
@@ -106,81 +112,81 @@ MU Vision Sensor 3 的外设和接口如图所示：
 
 ![](./images/Makecode_block_setLED.png)
 
-**8.恢复模块默认设置**  
+### 恢复模块默认设置
 
 关闭所有算法，重置所有硬件设置
 
 ![](./images/Makecode_block_setdefault.png)
 
-**9.光线传感器开启功能**
+### 光线传感器开启功能
 
 开启光线传感器对应功能，手势检测功能无法与其他功能共用。
 
 ![](./images/Makecode_block_ls_begin.png)
 
-**10.光线传感器设置灵敏度**
+### 光线传感器设置灵敏度
 
 ![](./images/Makecode_block_ls_set_sensitivity.png)
 
-**11.光线传感器读取接近检测数值**
+### 光线传感器读取接近检测数值
 
 ![](./images/Makecode_block_ls_read_proximity.png)
 
-**12.光线传感器读取环境光检测数值**
+### 光线传感器读取环境光检测数值
 
 ![](./images/Makecode_block_ls_read_als.png)
 
-**13.光线传感器读取手势检测状态**
+### 光线传感器读取手势检测状态
 
 ![](./images/Makecode_block_ls_gesture_status.png)
 
-**13.光线传感器读取手势检测结果**
+### 光线传感器读取手势检测结果
 
 ![](./images/Makecode_block_ls_gesture_value.png)
 
-## WiFi 配置模块
+## MU视觉传感器WiFi
 
 WiFi 配置模块只能在 `WiFi` 和 `图传` 模式下使用。
 
-**1.读取本地 IP**
+### 读取本地 IP
 
 读取 MU 的 IP。
 
 ![](./images/Makecode_block_wifi_read_sip.png)
 
-**2.读取目标 IP**
+### 读取目标 IP
 
 读取目标 IP。
 
 ![](./images/Makecode_block_wifi_read_cip.png)
 
-**3.WiFi 配置**
+### WiFi 配置
 
 配置 WiFi 账号密码及模式。
 
 ![](./images/Makecode_block_wifi_set.png)
 
-**4.WiFi 连接**
+### WiFi 连接
 
 尝试开启/关闭 WiFi 连接，若成功，则返回 `true`。
 
 ![](./images/Makecode_block_wifi_con.png)
 
-**5.WiFi 配置目标 IP**
+### WiFi 配置目标 IP
 
 配置目标 IP，需 WiFi 连接成功后调用才生效。
 
 ![](./images/Makecode_block_wifi_udp.png)
 
-**6.WiFi 读取透传数据**
+### WiFi 读取透传数据
 
 读取目标设备向 MU 发送的数据。
 
 ![](./images/Makecode_block_wifi_read.png)
 
-## 完整示例
+# 完整示例
 
-**(1)球体与人体检测**
+### 球体与人体检测
 
 初始程序：采用I2C连接，启用球体检测算法，其余设置为默认。
 
@@ -190,7 +196,7 @@ WiFi 配置模块只能在 `WiFi` 和 `图传` 模式下使用。
 
 ![](./images/Makecode_example_ball_detect.png)
 
-**(2)卡片识别**
+### 卡片识别
 
 初始程序：采用I2C连接，启用交通卡片识别算法，其余设置为默认。
 
@@ -200,7 +206,7 @@ WiFi 配置模块只能在 `WiFi` 和 `图传` 模式下使用。
 
 ![](./images/Makecode_example_card_detect.png)
 
-**(3) 颜色识别**
+### 颜色识别
 
 初始程序：采用I2C连接，启用颜色识别算法，锁定摄像头白平衡防止偏色，其余设置为默认。
 
@@ -210,7 +216,7 @@ WiFi 配置模块只能在 `WiFi` 和 `图传` 模式下使用。
 
 ![](./images/Makecode_example_color_recognition.png)
 
-**(4)色块检测**
+### 色块检测
 
 初始程序：采用I2C连接，启用色块检测算法，锁定摄像头白平衡防止偏色，其余设置为默认。
 
@@ -220,7 +226,7 @@ WiFi 配置模块只能在 `WiFi` 和 `图传` 模式下使用。
 
 ![](./images/Makecode_example_color_block.png)
 
-**(5)串口模式示例**
+### 串口模式示例
 
 拨动左侧输出模式拨码开关至串口模式，MU可采用串口连接Micro:bit。由于此模式下电脑无法与Micro:bit串口通讯，所以使用Micro:bit自带的点阵屏直接显示检测结果。
 
