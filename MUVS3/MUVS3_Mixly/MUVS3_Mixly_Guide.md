@@ -244,15 +244,15 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 ## 光线传感器-手势识别
 
-![](./images/Mixly_block_ls_gesture_detect.png)
+![](./images/Mixly_example_ls_gesture_detect.png)
 
 ## 光线传感器-接近检测/环境光亮度检测
 
-![](./images/Mixly_block_ls_als_proximity_detect.png)
+![](./images/Mixly_example_ls_als_proximity_detect.png)
 
 ## AT指令连接WiFi
 
-![](./images/Mixly_code_AT_wifi_set.png)
+![](./images/Mixly_example_AT_wifi_set.png)
 
 # 常见问题
 
