@@ -68,15 +68,15 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 ### 初始化模块
 
-(1)硬件串口：视觉传感器使用串口模式，连接主控的硬件串口时主控初始化，该串口为主控和电脑端的串口通信，用于视觉会占用，电脑端打印字符会错乱或通信异常；
+1. 硬件串口：视觉传感器使用串口模式，连接主控的硬件串口时主控初始化，该串口为主控和电脑端的串口通信，用于视觉会占用，电脑端打印字符会错乱或通信异常；
 
 ![](./images/Mixly_block_serial_init.png)
 
-(2)软件串口：视觉传感器使用串口模式，连接主控的软件串口时主控初始化，主控可自定义RX和TX引脚，实际环境软串口速度太快可能不稳定，波特率不建议超过9600；
+2. 软件串口：视觉传感器使用串口模式，连接主控的软件串口时主控初始化，主控可自定义RX和TX引脚，实际环境软串口速度太快可能不稳定，波特率不建议超过9600；
 
 ![](./images/Mixly_block_softserial_init.png)
 
-(3)硬件I2C：视觉传感器使用I2C模式，连接主控I2C引脚时主控初始化。
+3. 硬件I2C：视觉传感器使用I2C模式，连接主控I2C引脚时主控初始化。
 
 ![](./images/Mixly_block_i2c_init.png)
 
@@ -114,19 +114,19 @@ MU Vision Sensor 3的外设和接口如图所示：
 
 ### 获取算法识别结果
 
-(1) 球、人体
+1. 球、人体
 
 ![](./images/Mixly_block_ball_detect.png)
 
-(2) 卡片
+2. 卡片
 
 ![](./images/Mixly_block_card_detect.png)
 
-(3) 颜色识别
+3. 颜色识别
 
 ![](./images/Mixly_block_color_recognition.png)
 
-(4) 色块检测
+4. 色块检测
 
 ![](./images/Mixly_block_color_block.png)
 
