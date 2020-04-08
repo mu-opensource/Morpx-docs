@@ -34,6 +34,14 @@
 
 .. toctree::
     :maxdepth: 1
+    :caption: MU无人驾驶教育套件
+
+    SelfDriving/introduction
+    SelfDriving/SelfDriving_Resource/index
+    
+
+.. toctree::
+    :maxdepth: 1
     :caption: 技术支持
 
     Support/contact
