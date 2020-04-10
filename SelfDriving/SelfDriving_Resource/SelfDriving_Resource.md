@@ -26,9 +26,9 @@ MU视觉传感器可以和各类开源软硬件配合使用，查看各类开源
 
 **麦昆小车**
 
-麦昆小车资料 <http://wiki.dfrobot.com.cn/index.php?title=(SKU:ROB0148)_micro:Maqueen(V2.0)%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B0%8F%E8%BD%A6>
+麦昆小车资料 [wiki链接]<http://wiki.dfrobot.com.cn/index.php?title=(SKU:ROB0148)_micro:Maqueen(V2.0)%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%B0%8F%E8%BD%A6>
 
-**Micro:bit:**
+**Micro:bit教程**
 
 Micro:bit官网 <https://microbit.org/zh-CN/>
 
