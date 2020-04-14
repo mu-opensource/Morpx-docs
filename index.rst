@@ -38,7 +38,7 @@
 
     SelfDriving/introduction
     SelfDriving/SelfDriving_Resource/index
-    
+    SelfDriving/SelfDriving_MakeCode/index
 
 .. toctree::
     :maxdepth: 1
