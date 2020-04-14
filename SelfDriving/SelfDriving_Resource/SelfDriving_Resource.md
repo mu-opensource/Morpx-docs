@@ -18,7 +18,7 @@ GitHub：<https://github.com/mu-opensource/>
 
 对于套件中的模块化亚克力板，需要增加数量的用户可自行用激光切割机切割2mm的亚克力板。
 
-[MU自动驾驶套件亚克力板](https://github.com/mu-opensource/Morpx-docs/raw/master/MUVS3/MUVS3_Resource/sources/PMMA_module.zip)
+[MU自动驾驶套件亚克力板](https://github.com/mu-opensource/Morpx-docs/raw/master/SelfDriving/SelfDriving_Resource/sources/PMMA_module.zip)
 
 # 平台链接
 
