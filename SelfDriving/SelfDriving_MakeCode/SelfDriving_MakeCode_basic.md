@@ -12,13 +12,15 @@ micro:bit官方采用MakeCode软件进行编程。编程页面：[MakeCode在线
 
 在主页“我的项目”中新建一个项目，进入编程界面。
 
+![](./images/basic/mainPage.jpg)
+
 在编程界面中，最左侧是模拟器和下载按钮，部分程序可以直接模拟运行查看效果，所有程序编译完成后都可以下载到micro:bit上运行。micro:bit连上电脑后显示一个模拟U盘，将程序编译后生成的hex文件放入U盘就会重启micro:bit运行该程序。
 
 ![](./images/basic/download.jpg)
 
 界面中间是编程主界面，拖放可选择的编程块至右边即可编程，鼠标右键点击可重复、删除、显示帮助等操作。
 
-![](./images/basic/mainPage.jpg)
+![](./images/basic/blocks.jpg)
 
 除了基础编程块，套件还会用到外部设备的扩展编程块，打开高级-扩展，搜索"muvision"添加MU视觉传感器相关编程块，搜索“maqueen”添加麦昆小车相关编程块。其他第三方编程块导入同理。
 
@@ -33,3 +35,5 @@ micro:bit官方采用MakeCode软件进行编程。编程页面：[MakeCode在线
 点击“下载”，编译生成hex文件，将micro:bit连接至电脑，将hex文件放入micro:bit模拟U盘，则会重启，数秒后看到程序实际运行效果。
 
 ![](./images/basic/heartBeat.jpg)
+
+Tips：默认块中，“当开机时”中的程序运行一次，然后进入“无限循环”中循环运行。
