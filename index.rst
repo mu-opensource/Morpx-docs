@@ -37,8 +37,9 @@
     :caption: MU无人驾驶教育套件
 
     SelfDriving/introduction
-    SelfDriving/SelfDriving_Resource/index
     SelfDriving/SelfDriving_MakeCode/index
+    SelfDriving/SelfDriving_Resource/index
+
 
 .. toctree::
     :maxdepth: 1

@@ -9,6 +9,8 @@ MoonBot Kit 固件升级向导
 本文档旨在指导用户更新 MoonBot Kit :doc:`../MoonBot_Hardware/MoonBot_Hardware_controller`
 及 :doc:`../MoonBot_Hardware/MoonBot_Hardware_MUVS3` 的相关固件。
 
+查看视频教程：`固件更新视频教程 <https://v.qq.com/x/page/x095408v8a0.html>`_
+
 准备工作
 --------
 
@@ -36,10 +38,10 @@ MoonBot Kit 固件升级向导
 ++++++++++++++++++++++++++++++++++++
 
 1.将 :doc:`../MoonBot_Hardware/MoonBot_Hardware_MUVS3` 连接至 MoonBot Kit
-:doc:`../MoonBot_Hardware/MoonBot_Hardware_controller` 的端口9，并将主控连接至电脑
+:doc:`../MoonBot_Hardware/MoonBot_Hardware_controller` 的端口P9，并将主控连接至电脑
 
 2.按住 :doc:`../MoonBot_Hardware/MoonBot_Hardware_MUVS3`
-左侧的 Function 键,再短按右侧 Reset 键,然后松开 Function 键,即可进入烧录模式
+左侧的 Function 键,再短按一次右侧 Reset 键重启,即可进入烧录模式，此时可以松开 Function 键
 
 3.双击打开MU视觉传感器固件更新软件 ``flash_download_tools_vx.x.x.exe``
 
@@ -67,13 +69,13 @@ MoonBot Kit 固件升级向导
 
 .. Attention::
 
-    **不要输入错误地址，也不要尝试其他地址，否则可能导致传感器内置固件损坏，如有发生,请联系摩图科技售后技术支持进行解决**
+    **不要输入错误地址，也不要按ERASE擦除芯片所有内容，否则可能导致传感器芯片内置固件损坏。如有发生，请联系摩图科技售后技术支持进行解决**
 
     电话：(0571)8195 8588
 
     邮箱：support@morpx.com
 
-8.点击左下角 ``START`` 按钮开，并 **连续点击**
+8.点击左下角 ``START`` 按钮开始，电脑端显示“等待上电同步”，此时 **连续点击**
 MoonBot Kit :doc:`../MoonBot_Hardware/MoonBot_Hardware_controller`
 上按钮B直至软件开始烧录，烧录时主控右侧LED绿灯常亮
 
