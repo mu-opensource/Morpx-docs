@@ -17,7 +17,7 @@ MoonBot Kit 遥控器固件升级向导
 - [Arduino官方IDE](https://www.arduino.cc/en/Main/Software?setlang=cn)
 - MoonBot 遥控器 Arduino 固件或源码
 
-## 通过烧录HEX文件进行升级
+## 方法一 通过烧录HEX文件进行升级
 
 - 1.下载[MoonBot 主控遥控器固件](https://github.com/mu-opensource/MoonBot_RemoteController/releases/latest)(.hex 文件)
 - 2.下载[Arduino Hex 烧录工具](https://github.com/mu-opensource/Morpx-docs/raw/master/MoonBot/MoonBot_App/sources/Arduloader.zip)
@@ -29,7 +29,7 @@ MoonBot Kit 遥控器固件升级向导
         3）点击下载，等待下载完成
         ```
 
-## 通过Arduino IDE编译Arduino源码进行升级
+## 方法二 通过Arduino IDE编译Arduino源码进行升级
 
 - 1.搭建[MoonBot Kit Arduino 开发环境](../MoonBot_Arduino/MoonBot_arduino_development_construction_guide.md)
 - 2.下载[MoonBot Kit 主控遥控器源码](https://github.com/mu-opensource/MoonBot_RemoteController/releases/latest)(Source.zip 文件)
