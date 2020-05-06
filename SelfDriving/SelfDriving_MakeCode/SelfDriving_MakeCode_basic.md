@@ -39,11 +39,3 @@ micro:bit连上电脑后显示一个模拟U盘，将程序编译后生成的hex�
 ![](./images/basic/heartBeat.jpg)
 
 > Tips：默认块中，“当开机时”中的程序运行一次，然后进入“无限循环”中循环运行。
-
-<table>
- <tr><td>ESP32 芯片</td><td>GPIO10</td><td>GPIO9</td><td>GPIO37</td><td>GPIO39</td></tr>
- <tr><td>红色 LED</td><td>LED 管脚</td><td> </td><td> </td><td> </td></tr>
- <tr><td>红外发射管 IR</td><td> </td><td>发射管引脚</td><td> </td><td> </td></tr>
-<tr><td>按键 BUTTON A</td><td> </td><td> </td><td>按键管脚</td><td> </td></tr>
-<tr><td>按键 BUTTON B</td><td> </td><td> </td><td> </td><td>按键管脚</td></tr>
-</table>
