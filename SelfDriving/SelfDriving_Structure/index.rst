@@ -11,4 +11,5 @@ MU无人驾驶套件拼装
     :glob: 
 	
     SelfDriving_Traffic_Controller.md
+    SelfDriving_Maqueen_Extended.md
 	
