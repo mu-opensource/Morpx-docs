@@ -23,7 +23,7 @@
 
 ![](./images/communication/serialTxRx.jpg)
 
-## 无线通讯
+## 无线
 
 micro:bit主控芯片自带无线通讯功能，是一种分组广播的通讯形式，当两块micro:bit设定在同一分组时即可收发数据。
 
