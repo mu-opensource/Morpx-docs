@@ -6,6 +6,10 @@
 
 GitHub：<https://github.com/mu-opensource/>
 
+# MoonBot课件
+
+在网盘下载MoonBot的课件：[链接](https://pan.baidu.com/s/1f7URi5iAuf4OOYFyUKtg9g)， 提取码：wq8n
+
 # 3D装配图
 
 在此下载MoonBot Kit的三形态3D图：
