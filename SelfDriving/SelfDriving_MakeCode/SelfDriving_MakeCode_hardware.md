@@ -15,10 +15,15 @@ micro:bit引脚图：
 ![](./images/hardware/microbit_pinout.jpg)
 
 可以看到micro:bit可用的引脚已经通过金色的金手指引出，在套件中配了一块扩展板，则能将金手指转换成排针，方便连接舵机、LED等外部设备。
+蓝色的是引脚插口，红色是VCC，黑色是GND。扩展板可用圆形DC口或USB口供电(扩展板USB口只能供电，不能下载)。
 
 扩展板接口图：
 
 ![](./images/hardware/IObit_front.jpg)
+
+示例：点亮红绿灯模块
+
+程序说明：将红绿灯模块连接到扩展板的P15口，参考[串行灯程序](https://morpx-docs.readthedocs.io/zh_CN/latest/SelfDriving/SelfDriving_MakeCode/SelfDriving_MakeCode_actuator.html#id5)，用扩展板点亮红绿灯模块，程序下载完后用电池盒通过DC口供电，脱离USB线。
 
 示例：GPIO输出
 
@@ -40,7 +45,9 @@ Volt = 3.3 * (Value/1024)
 
 可以看到模拟转换为数字时有一定的精度，电压被分为1024份，测得的数字量约等于输入的模拟量。
 
-示例：
+示例：加速度值
+
+程序说明：通过串口查看加速度值。下载程序后打开控制台，左右倾斜micro:bit，查看绘制的模拟曲线和返回的数字值。
 
 ![](./images/hardware/GPIOADC.jpg)
 
