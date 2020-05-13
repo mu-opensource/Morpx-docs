@@ -22,7 +22,7 @@
 4. 各个功能函数，点亮红绿灯，转动舵机，全部开启和全部关闭，可以被主程序调用。
 
 ![](./images/composite/trafficDeviceLight.jpg)
-![](./images/compositetrafficDeviceServo.jpg)
+![](./images/composite/trafficDeviceServo.jpg)
 ![](./images/composite/trafficDeviceOpenAll.jpg)
 ![](./images/composite/trafficDeviceCloseAll.jpg)
 
