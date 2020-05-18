@@ -3,6 +3,8 @@
 执行器是接受控制信号并对受控对象施加控制运行作用的装置。作为输出类设备，通常用简单的从上至下的顺序控制就可以使执行器动起来。
 通过相应的编程块来掌握以下执行器的直接控制。
 
+下载本页示例：[执行器类程序](https://github.com/mu-opensource/Morpx-docs/raw/master/SelfDriving/SelfDriving_MakeCode/sources/actuator.zip)
+
 ## 电机控制
 
 电机(motor)俗称马达，是常见的电能转换为机械能的装置。电机可划分为直流、交流，有刷、无刷，永磁、电磁等很多种类。小车常用直流减速电机作为车轮的驱动电机。

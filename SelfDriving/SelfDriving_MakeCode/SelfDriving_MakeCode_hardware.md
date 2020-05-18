@@ -4,6 +4,8 @@
 在使用麦昆小车时就会涉及到引脚的精确使用，如蜂鸣器接在P0脚。
 通过硬件相关的系统学习，在使用micro:bit外接传感器或执行器时就能如鱼得水，自由设计。
 
+下载本页示例：[硬件高级程序](https://github.com/mu-opensource/Morpx-docs/raw/master/SelfDriving/SelfDriving_MakeCode/sources/hardware.zip)
+
 ## GPIO
 
 通用输入输出端口（GPIO）是主控芯片提供的可供编程的接口，对应着芯片上的各个引脚。

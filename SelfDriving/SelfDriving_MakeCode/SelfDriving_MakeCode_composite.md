@@ -5,6 +5,8 @@
 交通控制器中micro:bit主控和扩展板作为主控，电池作为供电，舵机和交通灯作为输出，
 是舵机、交通灯、GPIO的综运用示例。
 
+下载本页示例：[综合运用程序](https://github.com/mu-opensource/Morpx-docs/raw/master/SelfDriving/SelfDriving_MakeCode/sources/composite.zip)
+
 程序说明：
 
 1.当开机时，设定舵机连接口P1和交通灯连接口P2，初始化用到的变量。

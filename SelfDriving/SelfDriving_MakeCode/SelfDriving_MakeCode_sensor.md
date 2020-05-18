@@ -3,6 +3,8 @@
 传感器（sensor）是一种检测装置，能将测量到的信息，转换为电信号输出。对于主控来说传感器主要是输入设备，在自动控制中起重要作用。
 传感器的类别非常多，功能和数据也各有不同。本教程通过micro：bit相关传感器的使用来表达反馈控制的过程，见微知著。
 
+下载本页示例：[传感器类程序](https://github.com/mu-opensource/Morpx-docs/raw/master/SelfDriving/SelfDriving_MakeCode/sources/sensor.zip)
+
 ## 按键
 
 按键是最简单的输入设备，也可以当做是一种传感器。按键主要有通断两种状态，对应程序中的真或假、0或1，通过两种状态的检测判断产生反馈，做出相应反应。

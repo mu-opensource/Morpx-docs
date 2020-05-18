@@ -3,6 +3,8 @@
 在实际的设备与设备间、芯片与芯片间往往有各种通讯协议(protocol)，用于传输复杂的数据，本质是按照预定的规则收发数据。
 在可视化编程中部分收发规则已简化，配置了默认的引脚、格式，而内部的数据类型、字符的协议需要用户自己定义。
 
+下载本页示例：[通讯类程序](https://github.com/mu-opensource/Morpx-docs/raw/master/SelfDriving/SelfDriving_MakeCode/sources/communication.zip)
+
 ## 串口
 
 串口通讯（Serial Communication)是设备间常用的串行通讯方式，比如micro:bit与电脑间就可以通过串口收发数据。
