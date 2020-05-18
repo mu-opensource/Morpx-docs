@@ -2,7 +2,9 @@
 
 ## 简介
 micro:bit是一款全球流行的STEAM教育开发板，由英国BBC广播公司开发。
-micro:bit本身集成了传感器和灯光显示等外部设备，接入电脑即可编程体验基础功能；当插入扩展板类产品如麦昆小车，可以有更多的控制电机、氛围灯等功能。
+micro:bit本身集成了传感器和灯光显示等外部设备，如下图，接入电脑即可编程体验基础功能；当插入扩展板类产品如麦昆小车，可以有更多的控制电机、氛围灯等功能。
+
+![](./images/basic/MicroBit_description.jpg)
 
 micro:bit官方采用MakeCode软件进行编程。编程页面：[MakeCode在线编程](https://makecode.microbit.org/#)
 

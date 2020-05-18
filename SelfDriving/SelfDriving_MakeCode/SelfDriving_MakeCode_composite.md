@@ -7,19 +7,19 @@
 
 程序说明：
 
-1. 当开机时，设定舵机连接口P1和交通灯连接口P2，初始化用到的变量。
+1.当开机时，设定舵机连接口P1和交通灯连接口P2，初始化用到的变量。
 
 ![](./images/composite/trafficDeviceStart.jpg)
 
-2. 无线循环主程序中，检测变量“装置选择”的数值，启用相应功能。
+2.无线循环主程序中，检测变量“装置选择”的数值，启用相应功能。
 
 ![](./images/composite/trafficDeviceLoop.jpg)
 
-3. 通过按键中断对“装置选择”进行修改，且约束在0-3之间。
+3.通过按键中断对“装置选择”进行修改，且约束在0-3之间。
 
 ![](./images/composite/trafficDeviceInterrupt.jpg)
 
-4. 各个功能函数，点亮红绿灯，转动舵机，全部开启和全部关闭，可以被主程序调用。
+4.各个功能函数，点亮红绿灯，转动舵机，全部开启和全部关闭，可以被主程序调用。
 
 ![](./images/composite/trafficDeviceLight.jpg)
 ![](./images/composite/trafficDeviceServo.jpg)
