@@ -9,7 +9,8 @@ MU无人驾驶套件拼装
 .. toctree::
     :maxdepth: 1
     :glob: 
-	
-    SelfDriving_Traffic_Controller.md
+    
     SelfDriving_Maqueen_Extended.md
+    SelfDriving_Traffic_Controller.md
+
 	
