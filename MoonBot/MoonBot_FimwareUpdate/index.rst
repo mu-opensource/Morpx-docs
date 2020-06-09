@@ -41,7 +41,7 @@ MoonBot Kit 固件升级向导
 :doc:`../MoonBot_Hardware/MoonBot_Hardware_controller` 的端口P9，并将主控连接至电脑
 
 2.按住 :doc:`../MoonBot_Hardware/MoonBot_Hardware_MUVS3`
-左侧的 Function 键,再短按一次右侧 Reset 键重启,即可进入烧录模式，此时可以松开 Function 键
+左侧的 Mode 键,再短按一次右侧 Reset 键重启,即可进入烧录模式，此时可以松开 Mode 键
 
 3.双击打开MU视觉传感器固件更新软件 ``flash_download_tools_vx.x.x.exe``
 
